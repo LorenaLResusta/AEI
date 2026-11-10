@@ -1,0 +1,77 @@
+baseURL = "https://lorenalresusta.github.io/AEI/"
+locale = "es-es"
+title = "Aprendizaje y Enseñanza de la Informática"
+theme = "hugo-book"
+
+# Configuración multilingüe
+defaultContentLanguage = "es"
+
+[languages]
+  [languages.es]
+    label = "Castellano"
+    weight = 1
+    contentDir = "content.es"
+    title = "AEI · Programación didáctica"
+    locale = "es-es"
+    copyright = "Máster de Profesorado de Secundaria · Universidad de Alicante · Curso 2026/27"
+
+  [languages.val]
+    label = "Valencià"
+    weight = 2
+    contentDir = "content.val"
+    title = "AEI · Programació didàctica"
+    locale = "ca-valencia"
+    copyright = "Màster de Professorat de Secundària · Universitat d'Alacant · Curs 2026/27"
+
+[markup]
+  [markup.goldmark.renderer]
+    # Necesario para los bloques HTML de los shortcodes interactivos
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+  [markup.highlight]
+    style = "github"
+    noClasses = true
+
+[params]
+  BookSection = '/'
+  # light | dark | auto (sigue el tema del sistema operativo)
+  BookTheme = 'auto'
+  BookToC = true
+  BookSearch = true
+  BookComments = false
+  BookPortableLinks = 'warning'
+  BookDateFormat = '02/01/2006'
+
+[languages.es.menus]
+  [[languages.es.menus.after]]
+    name = "Currículos LOMLOE"
+    url = "https://educagob.educacionfpydeportes.gob.es/curriculo/curriculo-lomloe/curriculos-ccaa.html"
+    weight = 10
+  [[languages.es.menus.after]]
+    name = "Oposiciones docentes (GVA)"
+    url = "https://ceice.gva.es/es/web/rrhh-educacion/2025-cos-de-professors-d-ensenyament-secundari-ingres-i-noves-especialitats"
+    weight = 20
+  [[languages.es.menus.after]]
+    name = "TodoFP · Títulos"
+    url = "https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones.html"
+    weight = 30
+
+[languages.val.menus]
+  [[languages.val.menus.after]]
+    name = "Currículums LOMLOE"
+    url = "https://educagob.educacionfpydeportes.gob.es/curriculo/curriculo-lomloe/curriculos-ccaa.html"
+    weight = 10
+  [[languages.val.menus.after]]
+    name = "Oposicions docents (GVA)"
+    url = "https://ceice.gva.es/va/web/rrhh-educacion/2025-cos-de-professors-d-ensenyament-secundari-ingres-i-noves-especialitats"
+    weight = 20
+  [[languages.val.menus.after]]
+    name = "TodoFP · Títols"
+    url = "https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones.html"
+    weight = 30
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

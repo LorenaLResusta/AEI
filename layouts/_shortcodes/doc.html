@@ -1,0 +1,3 @@
+{{- /* Enlace a un documento de static/recursos. Uso: {{< doc `t03/archivo.pdf` `Título` >}} */ -}}
+{{- $p := .Get 0 -}}{{- $t := .Get 1 | default (path.Base $p) -}}
+<a class="aei-doc" href="{{ (printf "recursos/%s" $p) | relURL }}" target="_blank" rel="noopener">{{ $t }}</a> <span class="aei-ext">{{ upper (strings.TrimPrefix "." (path.Ext $p)) }}</span>

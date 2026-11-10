@@ -1,0 +1,62 @@
+{{- /* Calendario interactivo del bloque (septiembre-diciembre 2026). Lee data/sesiones.yaml. */ -}}
+{{- $val := eq site.Language.Lang "val" -}}
+{{- $id := printf "cal-%d" .Ordinal -}}
+{{- $ses := partial "aei-sesiones.html" . -}}
+{{- $txt := cond $val
+  (dict "head" "Calendari del bloc 2026/27" "sub" "Prem un dia acolorit" "info" "Prem un dia acolorit per a veure què toca eixe dia." "meses" (slice "gener" "febrer" "març" "abril" "maig" "juny" "juliol" "agost" "setembre" "octubre" "novembre" "desembre") "dias" (slice "dilluns" "dimarts" "dimecres" "dijous" "divendres" "dissabte" "diumenge") "ini" (slice "dl" "dt" "dc" "dj" "dv" "ds" "dg") "kinds" (dict "clase" "Classe" "taller" "Taller pràctic" "expo" "Exposicions" "festivo" "Festiu") "horas" "h" "ver" "Obri el tema" "de" "de")
+  (dict "head" "Calendario del bloque 2026/27" "sub" "Pulsa un día coloreado" "info" "Pulsa un día coloreado para ver qué toca ese día." "meses" (slice "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre") "dias" (slice "lunes" "martes" "miércoles" "jueves" "viernes" "sábado" "domingo") "ini" (slice "L" "M" "X" "J" "V" "S" "D") "kinds" (dict "clase" "Clase" "taller" "Taller práctico" "expo" "Exposiciones" "festivo" "Festivo") "horas" "h" "ver" "Abrir el tema" "de" "de")
+-}}
+<div class="bd-w aei-cal" id="{{ $id }}">
+  <div class="bd-w-head"><span class="bd-w-tag">{{ cond $val "Interactiu" "Interactivo" }}</span> {{ $txt.head }} <span class="bd-w-sub">{{ $txt.sub }}</span></div>
+  <div class="bd-w-body">
+    <div class="bd-cal-grid" data-c="grid"></div>
+    <div class="bd-w-out bd-cal-info" data-c="info" aria-live="polite">{{ $txt.info }}</div>
+    <div class="bd-cal-legend" data-c="kinds"></div>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById({{ $id }});
+  var q = function (n) { return root.querySelector('[data-c="' + n + '"]'); };
+  var SES = {{ $ses | jsonify | safeJS }};
+  var T = {{ $txt | jsonify | safeJS }};
+  var COL = { clase: 'var(--color-accent-note)', taller: 'var(--color-accent-tip)', expo: 'var(--color-accent-important)', festivo: 'var(--color-accent-caution)' };
+  var by = {}; SES.forEach(function (s) { by[s.d] = s; });
+  var sel = null;
+  function iso(y, m, d) { return y + '-' + String(m + 1).padStart(2, '0') + '-' + String(d).padStart(2, '0'); }
+  function show(k) {
+    var s = by[k], o = q('info'); while (o.firstChild) o.removeChild(o.firstChild);
+    var p = k.split('-'), dt = new Date(+p[0], +p[1] - 1, +p[2]);
+    var h = document.createElement('p'), b = document.createElement('strong');
+    b.textContent = T.dias[(dt.getDay() + 6) % 7] + ' ' + dt.getDate() + ' ' + T.de + ' ' + T.meses[dt.getMonth()] + (s.h ? ' · ' + s.h + ' ' + T.horas : '');
+    h.appendChild(b); o.appendChild(h);
+    var t = document.createElement('p'); t.textContent = s.t; o.appendChild(t);
+    if (s.u) { var a = document.createElement('a'); a.href = s.u; a.textContent = T.ver + ' →'; var pa = document.createElement('p'); pa.appendChild(a); o.appendChild(pa); }
+  }
+  function draw() {
+    var g = q('grid'); while (g.firstChild) g.removeChild(g.firstChild);
+    [8, 9, 10, 11].forEach(function (m) {
+      var box = document.createElement('div'); box.className = 'bd-month';
+      var h = document.createElement('h4'); h.textContent = T.meses[m] + ' 2026'; box.appendChild(h);
+      var gr = document.createElement('div'); gr.className = 'bd-month-g';
+      T.ini.forEach(function (x) { var e = document.createElement('b'); e.textContent = x; gr.appendChild(e); });
+      var first = (new Date(2026, m, 1).getDay() + 6) % 7, days = new Date(2026, m + 1, 0).getDate();
+      for (var i = 0; i < first; i++) gr.appendChild(document.createElement('span'));
+      for (var d = 1; d <= days; d++) {
+        var k = iso(2026, m, d), s = by[k], c = document.createElement(s ? 'button' : 'span');
+        c.className = 'bd-day' + (sel === k ? ' sel' : ''); c.textContent = d;
+        if (s) {
+          c.type = 'button'; c.setAttribute('data-k', s.k === 'festivo' ? 'festivo' : 'lectivo');
+          c.style.setProperty('--u', COL[s.k]); c.title = s.t;
+          (function (k) { c.addEventListener('click', function () { sel = k; draw(); show(k); }); })(k);
+        }
+        gr.appendChild(c);
+      }
+      box.appendChild(gr); g.appendChild(box);
+    });
+  }
+  var kd = q('kinds');
+  Object.keys(COL).forEach(function (k) { var s = document.createElement('span'), i = document.createElement('i'); i.style.background = COL[k]; s.appendChild(i); s.appendChild(document.createTextNode(T.kinds[k])); kd.appendChild(s); });
+  draw();
+})();
+</script>

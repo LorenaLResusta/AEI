@@ -1,0 +1,9 @@
+{{- /* Devuelve la lista de sesiones (data/sesiones.yaml) con el texto en el idioma actual y el enlace al tema. */ -}}
+{{- $lang := cond (eq site.Language.Lang "val") "val" "es" -}}
+{{- $ses := slice -}}
+{{- range hugo.Data.sesiones -}}
+  {{- $url := "" -}}
+  {{- if .tema -}}{{- with site.GetPage (printf "/%s" .tema) -}}{{- $url = .RelPermalink -}}{{- end -}}{{- end -}}
+  {{- $ses = $ses | append (dict "d" .d "h" .h "k" .tipo "t" (index . $lang) "u" $url) -}}
+{{- end -}}
+{{- return $ses -}}

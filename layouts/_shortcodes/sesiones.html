@@ -1,0 +1,23 @@
+{{- /* Tabla de sesiones del bloque a partir de data/sesiones.yaml */ -}}
+{{- $val := eq site.Language.Lang "val" -}}
+{{- $dias := cond $val (dict "Sun" "dg." "Mon" "dl." "Tue" "dt." "Wed" "dc." "Thu" "dj." "Fri" "dv." "Sat" "ds.") (dict "Sun" "dom." "Mon" "lun." "Tue" "mar." "Wed" "mié." "Thu" "jue." "Fri" "vie." "Sat" "sáb.") -}}
+{{- $tipos := cond $val (dict "clase" "Classe" "taller" "Taller" "expo" "Exposicions" "festivo" "Festiu") (dict "clase" "Clase" "taller" "Taller" "expo" "Exposiciones" "festivo" "Festivo") -}}
+{{- $n := 0 -}}{{- $tot := 0 -}}
+<div class="aei-tabla">
+<table>
+<thead><tr><th>#</th><th>{{ cond $val "Data" "Fecha" }}</th><th>h</th><th>{{ cond $val "Sessió" "Sesión" }}</th><th>{{ cond $val "Tipus" "Tipo" }}</th></tr></thead>
+<tbody>
+{{- range partial "aei-sesiones.html" . -}}
+{{- $f := time.AsTime .d -}}
+<tr class="aei-k-{{ .k }}">
+  <td>{{ if gt .h 0 }}{{ $n = add $n 1 }}{{ $tot = add $tot .h }}{{ $n }}{{ end }}</td>
+  <td style="white-space:nowrap">{{ index $dias ($f.Format "Mon") }} {{ $f.Format "02/01" }}</td>
+  <td>{{ if gt .h 0 }}{{ .h }}{{ end }}</td>
+  <td>{{ if .u }}<a href="{{ .u }}">{{ .t }}</a>{{ else }}{{ .t }}{{ end }}</td>
+  <td><span class="aei-tag aei-tag-{{ .k }}">{{ index $tipos .k }}</span></td>
+</tr>
+{{- end -}}
+</tbody>
+<tfoot><tr><td></td><td colspan="4"><strong>{{ $n }} {{ cond $val "sessions" "sesiones" }} · {{ $tot }} h</strong></td></tr></tfoot>
+</table>
+</div>
