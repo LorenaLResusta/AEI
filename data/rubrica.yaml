@@ -1,0 +1,189 @@
+# Rúbrica de la segunda prueba (programación + unidad) basada en los criterios de calificación
+# publicados por la comisión de selección de la especialidad 254 Informática (14/05/2025, Orden 1/2025).
+# Pesos oficiales por bloque; dentro de cada bloque todos los indicadores pesan lo mismo.
+# Niveles: 1 Insuficiente (2,5) · 2 Suficiente (5) · 3 Notable (7,5) · 4 Excelente (10)
+niveles:
+  es: ["Insuficiente", "Suficiente", "Notable", "Excelente"]
+  val: ["Insuficient", "Suficient", "Notable", "Excel·lent"]
+bloques:
+  - id: A
+    peso: 5
+    es: "Aspecto formal"
+    val: "Aspecte formal"
+    items:
+      - es: "Cumple las directrices de la convocatoria (anexo II: extensión, letra, unidades mínimas, PDF)"
+        val: "Compleix les directrius de la convocatòria (annex II: extensió, lletra, unitats mínimes, PDF)"
+        n:
+          - ["Incumple varios requisitos o no llega a seis unidades", "Incompleix diversos requisits o no arriba a sis unitats"]
+          - ["Un incumplimiento menor de formato", "Un incompliment menor de format"]
+          - ["Cumple el formato con detalles mejorables de maquetación", "Compleix el format amb detalls millorables de maquetació"]
+          - ["Cumple todos los requisitos; documento cuidado y legible", "Compleix tots els requisits; document cuidat i llegible"]
+      - es: "Toma como referencia la normativa vigente y aporta bibliografía y webgrafía"
+        val: "Pren com a referència la normativa vigent i aporta bibliografia i webgrafia"
+        n:
+          - ["Normativa derogada o ausente; sin bibliografía", "Normativa derogada o absent; sense bibliografia"]
+          - ["Normativa básica vigente; bibliografía escasa", "Normativa bàsica vigent; bibliografia escassa"]
+          - ["Normativa estatal y autonómica vigente bien citada", "Normativa estatal i autonòmica vigent ben citada"]
+          - ["Normativa completa y actualizada; bibliografía y webgrafía pertinentes", "Normativa completa i actualitzada; bibliografia i webgrafia pertinents"]
+  - id: B
+    peso: 25
+    es: "Aspectos pedagógicos, didácticos, metodológicos y de evaluación"
+    val: "Aspectes pedagògics, didàctics, metodològics i d'avaluació"
+    items:
+      - es: "Unidad válida y viable, adaptada al nivel y etapa y contextualizada en una realidad educativa concreta"
+        val: "Unitat vàlida i viable, adaptada al nivell i etapa i contextualitzada en una realitat educativa concreta"
+        n:
+          - ["Inviable o descontextualizada", "Inviable o descontextualitzada"]
+          - ["Viable pero genérica, poco contextualizada", "Viable però genèrica, poc contextualitzada"]
+          - ["Viable y adaptada al grupo descrito", "Viable i adaptada al grup descrit"]
+          - ["Totalmente realista, ajustada al centro, al grupo y al perfil profesional", "Totalment realista, ajustada al centre, al grup i al perfil professional"]
+      - es: "Objetivos y contenidos que desarrollan competencias y se aplican a situaciones de la vida y del trabajo"
+        val: "Objectius i continguts que desenvolupen competències i s'apliquen a situacions de la vida i del treball"
+        n:
+          - ["Objetivos no evaluables o desconectados del currículo", "Objectius no avaluables o desconnectats del currículum"]
+          - ["Objetivos correctos pero sin relación con competencias", "Objectius correctes però sense relació amb competències"]
+          - ["Relaciona objetivos, RA y competencias", "Relaciona objectius, RA i competències"]
+          - ["Relación completa con RA y competencias, con aplicación profesional clara", "Relació completa amb RA i competències, amb aplicació professional clara"]
+      - es: "Favorece la inclusión: medidas de respuesta educativa y accesibilidad al currículo"
+        val: "Afavoreix la inclusió: mesures de resposta educativa i accessibilitat al currículum"
+        n:
+          - ["No contempla la inclusión", "No contempla la inclusió"]
+          - ["Medidas genéricas, no aplicadas a la unidad", "Mesures genèriques, no aplicades a la unitat"]
+          - ["Medidas concretas por niveles de respuesta", "Mesures concretes per nivells de resposta"]
+          - ["Diseño inclusivo desde el inicio (DUA) y medidas concretas para el alumnado descrito", "Disseny inclusiu des de l'inici (DUA) i mesures concretes per a l'alumnat descrit"]
+      - es: "Metodología fundamentada: actividades conectadas con la experiencia del alumnado, recursos variados, TIC integradas e innovación"
+        val: "Metodologia fonamentada: activitats connectades amb l'experiència de l'alumnat, recursos variats, TIC integrades i innovació"
+        n:
+          - ["Metodología no justificada; actividades repetitivas", "Metodologia no justificada; activitats repetitives"]
+          - ["Metodología descrita con poca variedad de actividades y recursos", "Metodologia descrita amb poca varietat d'activitats i recursos"]
+          - ["Metodología activa justificada, con recursos y TIC", "Metodologia activa justificada, amb recursos i TIC"]
+          - ["Propuesta original e innovadora, bien fundamentada, con ejemplos y recursos de calidad", "Proposta original i innovadora, ben fonamentada, amb exemples i recursos de qualitat"]
+      - es: "Evaluación competencial: criterios para todo el alumnado, instrumentos variados, autoevaluación del alumnado y de la práctica docente"
+        val: "Avaluació competencial: criteris per a tot l'alumnat, instruments variats, autoavaluació de l'alumnat i de la pràctica docent"
+        n:
+          - ["Evaluación solo final o sin criterios claros", "Avaluació només final o sense criteris clars"]
+          - ["Criterios e instrumentos poco variados", "Criteris i instruments poc variats"]
+          - ["Criterios, instrumentos y ponderación coherentes con los RA", "Criteris, instruments i ponderació coherents amb els RA"]
+          - ["Evalúa el proceso, incluye autoevaluación y coevaluación y evalúa la práctica docente", "Avalua el procés, inclou autoavaluació i coavaluació i avalua la pràctica docent"]
+      - es: "Rigor: sin errores de contenido o de concepto, con evidencias y referencias que lo avalan"
+        val: "Rigor: sense errors de contingut o de concepte, amb evidències i referències que l'avalen"
+        n:
+          - ["Errores conceptuales graves", "Errors conceptuals greus"]
+          - ["Algún error menor o imprecisión", "Algun error menor o imprecisió"]
+          - ["Contenidos correctos", "Continguts correctes"]
+          - ["Contenidos correctos y actualizados, respaldados por fuentes", "Continguts correctes i actualitzats, avalats per fonts"]
+  - id: C
+    peso: 30
+    es: "Estructura y desarrollo"
+    val: "Estructura i desenvolupament"
+    items:
+      - es: "Estructura coherente, clara y ordenada"
+        val: "Estructura coherent, clara i ordenada"
+        n:
+          - ["Desordenada; faltan apartados", "Desordenada; falten apartats"]
+          - ["Apartados presentes pero poco hilados", "Apartats presents però poc enllaçats"]
+          - ["Ordenada y fácil de seguir", "Ordenada i fàcil de seguir"]
+          - ["Muy clara, con un hilo conductor que se percibe en todo momento", "Molt clara, amb un fil conductor que es percep en tot moment"]
+      - es: "Introducción o justificación clara que anticipa el contenido"
+        val: "Introducció o justificació clara que anticipa el contingut"
+        n:
+          - ["Sin introducción", "Sense introducció"]
+          - ["Introducción genérica", "Introducció genèrica"]
+          - ["Justifica la unidad y la sitúa en la programación", "Justifica la unitat i la situa en la programació"]
+          - ["Justificación sólida que anticipa la estructura y engancha", "Justificació sòlida que anticipa l'estructura i enganxa"]
+      - es: "Relaciona de forma coherente los apartados de la unidad"
+        val: "Relaciona de manera coherent els apartats de la unitat"
+        n:
+          - ["Apartados inconexos", "Apartats inconnexos"]
+          - ["Relación parcial entre objetivos, actividades y evaluación", "Relació parcial entre objectius, activitats i avaluació"]
+          - ["Objetivos, contenidos, actividades y evaluación alineados", "Objectius, continguts, activitats i avaluació alineats"]
+          - ["Alineación completa y explícita (tablas de relación)", "Alineació completa i explícita (taules de relació)"]
+      - es: "Cierre adecuado y coherente con el planteamiento"
+        val: "Tancament adequat i coherent amb el plantejament"
+        n:
+          - ["Sin cierre", "Sense tancament"]
+          - ["Cierre abrupto o repetitivo", "Tancament abrupte o repetitiu"]
+          - ["Resume y conecta con lo siguiente", "Resumeix i connecta amb el que segueix"]
+          - ["Conclusión personal que refuerza las ideas clave", "Conclusió personal que reforça les idees clau"]
+      - es: "Referencias a investigaciones, estudios, bibliografía y webgrafía actualizadas"
+        val: "Referències a investigacions, estudis, bibliografia i webgrafia actualitzades"
+        n:
+          - ["Ninguna referencia", "Cap referència"]
+          - ["Referencias escasas o desactualizadas", "Referències escasses o desactualitzades"]
+          - ["Referencias pertinentes", "Referències pertinents"]
+          - ["Referencias actuales integradas en el discurso", "Referències actuals integrades en el discurs"]
+      - es: "Respuestas correctas y ajustadas a las preguntas del tribunal"
+        val: "Respostes correctes i ajustades a les preguntes del tribunal"
+        n:
+          - ["No responde o responde mal", "No respon o respon malament"]
+          - ["Respuestas incompletas", "Respostes incompletes"]
+          - ["Respuestas correctas", "Respostes correctes"]
+          - ["Respuestas precisas que demuestran dominio", "Respostes precises que demostren domini"]
+  - id: D
+    peso: 40
+    es: "Competencia comunicativa"
+    val: "Competència comunicativa"
+    items:
+      - es: "Expone de forma clara y correcta, con fluidez y ritmo adecuado"
+        val: "Exposa de manera clara i correcta, amb fluïdesa i ritme adequat"
+        n:
+          - ["Lee o se bloquea", "Llig o es bloqueja"]
+          - ["Fluidez irregular", "Fluïdesa irregular"]
+          - ["Clara y fluida", "Clara i fluida"]
+          - ["Muy clara, fluida y bien dosificada", "Molt clara, fluida i ben dosificada"]
+      - es: "Muestra seguridad y coherencia"
+        val: "Mostra seguretat i coherència"
+        n:
+          - ["Inseguridad evidente", "Inseguretat evident"]
+          - ["Seguridad irregular", "Seguretat irregular"]
+          - ["Segura y coherente", "Segura i coherent"]
+          - ["Gran seguridad y dominio del discurso", "Gran seguretat i domini del discurs"]
+      - es: "Discurso organizado y ameno, con ejemplos y analogías que aclaran"
+        val: "Discurs organitzat i amé, amb exemples i analogies que aclareixen"
+        n:
+          - ["Discurso desorganizado", "Discurs desorganitzat"]
+          - ["Organizado pero monótono", "Organitzat però monòton"]
+          - ["Organizado, con algunos ejemplos", "Organitzat, amb alguns exemples"]
+          - ["Muy organizado y ameno; ejemplos de aula muy ilustrativos", "Molt organitzat i amé; exemples d'aula molt il·lustratius"]
+      - es: "Uso correcto del lenguaje técnico"
+        val: "Ús correcte del llenguatge tècnic"
+        n:
+          - ["Errores de terminología", "Errors de terminologia"]
+          - ["Terminología básica", "Terminologia bàsica"]
+          - ["Terminología correcta", "Terminologia correcta"]
+          - ["Terminología precisa y natural", "Terminologia precisa i natural"]
+      - es: "Despierta interés y muestra implicación y convicción"
+        val: "Desperta interés i mostra implicació i convicció"
+        n:
+          - ["No transmite interés", "No transmet interés"]
+          - ["Implicación puntual", "Implicació puntual"]
+          - ["Transmite interés", "Transmet interés"]
+          - ["Contagia entusiasmo y convicción", "Contagia entusiasme i convicció"]
+      - es: "Lenguaje corporal que favorece la comunicación; mira al tribunal"
+        val: "Llenguatge corporal que afavoreix la comunicació; mira el tribunal"
+        n:
+          - ["No mira al tribunal; postura cerrada", "No mira el tribunal; postura tancada"]
+          - ["Contacto visual escaso", "Contacte visual escàs"]
+          - ["Contacto visual y postura adecuados", "Contacte visual i postura adequats"]
+          - ["Lenguaje corporal natural que refuerza el mensaje", "Llenguatge corporal natural que reforça el missatge"]
+      - es: "Entonación, volumen, ritmo y énfasis que mantienen la atención"
+        val: "Entonació, volum, ritme i èmfasi que mantenen l'atenció"
+        n:
+          - ["Monótono o inaudible", "Monòton o inaudible"]
+          - ["Poco variado", "Poc variat"]
+          - ["Adecuado", "Adequat"]
+          - ["Muy expresivo, enfatiza lo importante", "Molt expressiu, emfatitza el que és important"]
+      - es: "Usa material auxiliar y recursos (pizarra, esquemas, diagramas, TIC)"
+        val: "Usa material auxiliar i recursos (pissarra, esquemes, diagrames, TIC)"
+        n:
+          - ["No usa material", "No usa material"]
+          - ["Uso escaso o poco útil", "Ús escàs o poc útil"]
+          - ["Material que ayuda a seguir la exposición", "Material que ajuda a seguir l'exposició"]
+          - ["Material muy bien integrado que complementa los contenidos", "Material molt ben integrat que complementa els continguts"]
+      - es: "En el debate se ajusta a las preguntas, evita divagar y usa la terminología adecuada"
+        val: "En el debat s'ajusta a les preguntes, evita divagar i usa la terminologia adequada"
+        n:
+          - ["Divaga o evita las preguntas", "Divaga o evita les preguntes"]
+          - ["Responde con rodeos", "Respon amb embuts"]
+          - ["Respuestas directas", "Respostes directes"]
+          - ["Respuestas directas, fluidas y precisas", "Respostes directes, fluïdes i precises"]

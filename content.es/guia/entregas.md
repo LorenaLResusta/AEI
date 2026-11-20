@@ -25,31 +25,20 @@ No hay examen final. La nota de la asignatura se obtiene con prácticas individu
 Las entregas se hacen en las tareas de Moodle de la asignatura. Las fechas exactas se publican en Moodle.
 
 > [!WARNING]
-> Prepara la PD **con el formato de la convocatoria**: DIN-A4, Arial 12, interlineado 1,5, máximo 60 páginas sin contar portada, índice y anexos (anexos de 15 páginas como máximo) y **sin hipervínculos**. En la oposición, cada incumplimiento de formato resta 0,16 puntos ([tema 8](/t08-oposiciones)).
+> El formato depende de la convocatoria. El **borrador de 2026** pide Times New Roman 12, interlineado 1,5 y 60 páginas **con los anexos incluidos**, y solo admite enlaces en la webgrafía ([tema 8](/t08-oposiciones)). En la convocatoria de 2025 era: DIN-A4, Arial 12, interlineado 1,5, máximo 60 páginas sin contar portada, índice y anexos (anexos de 15 páginas como máximo) y **sin hipervínculos**. En la oposición, cada incumplimiento de formato resta 0,16 puntos ([tema 8](/t08-oposiciones)).
 
 ## Cómo se evalúa
 
-Se usan las rúbricas de la asignatura, que siguen los criterios de los tribunales de oposición.
+Las exposiciones se evalúan con la [rúbrica de la segunda prueba](/guia/rubricas), basada en los criterios que publicó la comisión de selección de Informática en la última oposición (2025):
 
-### Programación didáctica
+| Bloque | Peso |
+|---|:-:|
+| A. Aspecto formal | 5 % |
+| B. Aspectos pedagógicos, didácticos, metodológicos y de evaluación | 25 % |
+| C. Estructura y desarrollo | 30 % |
+| D. Competencia comunicativa | 40 % |
 
-| Criterio | Qué se valora | Peso |
-|---|---|:-:|
-| Contenido y estructura | Están todos los apartados que pide la convocatoria, la estructura es coherente y fácil de seguir, y los anexos aportan información de valor | 30 % |
-| Metodología y evaluación | Metodología adecuada al nivel, secuenciación y temporalización correctas de las unidades, procedimiento de evaluación bien definido, atención al alumnado con NEAE | 30 % |
-| Redacción y formato | Registro y vocabulario técnico adecuados, formato ajustado a la convocatoria | 20 % |
-| Exposición | Tiempo ajustado, fluidez, terminología correcta y respuestas a las preguntas | 20 % |
-
-### Unidad de trabajo
-
-| Criterio | Qué se valora | Peso |
-|---|---|:-:|
-| Estructura y organización | Documento organizado y coherente que recoge todos los puntos de la convocatoria | 20 % |
-| Contenido | Contenidos explicados con detalle; actividades variadas, viables, innovadoras y bien secuenciadas, que llevan a un aprendizaje significativo | 30 % |
-| Metodología y evaluación | Metodología activa adecuada al nivel; evaluación coherente y rigurosa con varios instrumentos; inclusión del alumnado con NEAE | 30 % |
-| Presentación | Exposición fluida y clara, sin leer; capta el interés y responde con dominio a las preguntas | 20 % |
-
-Las rúbricas completas se pueden descargar en el [tema 9](/t09-defensa).
+La rúbrica completa, con los descriptores de cada nivel, una calculadora y la hoja de cálculo descargable, está en [Rúbricas](/guia/rubricas).
 
 ## Lista de comprobación antes de entregar
 

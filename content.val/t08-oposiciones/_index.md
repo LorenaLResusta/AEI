@@ -5,7 +5,7 @@ weight: 80
 
 # 8. Oposicions: especialitat 254 · Informàtica
 
-A la Comunitat Valenciana, l'especialitat **254 · Informàtica** pertany al **cos de professorat d'Ensenyament Secundari (0590)**. Aquesta pàgina resumeix com és el procediment d'ingrés prenent com a referència l'**última convocatòria, l'Ordre 1/2025, de 28 de gener** (modificada per l'Ordre 4/2025), i els **criteris d'avaluació publicats per la comissió de selecció** d'Informàtica.
+A la Comunitat Valenciana, l'especialitat **254 · Informàtica** pertany al **cos de professorat d'Ensenyament Secundari (0590)**. Aquesta pàgina resumeix com és el procediment d'ingrés prenent com a referència l'**última convocatòria, l'Ordre 1/2025, de 28 de gener** (modificada per l'Ordre 4/2025), i els **criteris d'avaluació publicats per la comissió de selecció** d'Informàtica. Les novetats de l'**esborrany de 2026** són en l'[apartat 8.5](#85-novetats-de-lesborrany-de-convocatòria-de-2026).
 
 > [!WARNING]
 > Cada convocatòria pot canviar detalls (terminis, nombre de temes, format). Llig sempre l'**ordre de la convocatòria de l'any** i els criteris que publica la comissió de selecció de la teua especialitat.
@@ -98,6 +98,26 @@ En totes les proves escrites i en la programació es descompten: **0,25** per ca
 - Per a ser docent en l'ensenyament públic o concertat necessites el **màster de professorat** (o la formació equivalent) a més de la titulació.
 - Les **borses de treball** de la Conselleria i l'**oferta setmanal de llocs de difícil cobertura** permeten treballar com a interí o interina.
 - El Ministeri ofereix places de **professorat visitant** i en centres espanyols a l'exterior.
+
+## 8.5. Novetats de l'esborrany de convocatòria de 2026
+
+El 29 d'octubre de 2026 la Conselleria va presentar en la mesa sectorial l'**esborrany** de la pròxima convocatòria de Secundària, amb **90 places d'Informàtica (254)**: 81 d'accés lliure i 9 de reserva per a persones amb diversitat funcional. Si s'aprova tal qual, canvien diversos aspectes respecte de 2025:
+
+| Aspecte | Convocatòria 2025 | Esborrany 2026 |
+|---|---|---|
+| Part B (pràctica) d'Informàtica | Fins a 4 h | **2 h 30 min** |
+| Preparació de la unitat | 60 min | **20 min** |
+| Defensa de la programació | Màxim 30 min | **Màxim 20 min** |
+| Temps total de la segona prova | Fins a 1 h | **Màxim 45 min**, més preguntes del tribunal (fins a 5 min) |
+| Extensió de la programació | 60 pàg. + 15 d'annexos | **60 pàg. amb els annexos inclosos**; l'índex (màx. 1 full) compta |
+| Lletra | Arial 12, interlineat 1,5 | **Times New Roman 12**, interlineat 1,5 (taules: senzill i mínim 10 pt) |
+| Hipervincles | Prohibits | Prohibits **excepte en la webgrafia** |
+| Penalització per format | 0,16 per incompliment (màx. 1) | **Fins a 1 punt**; la quantia la fixa cada comissió en els seus criteris |
+
+Es mantenen les dues proves eliminatòries, la part A amb elecció entre 4 temes i 2 hores, el mínim de **sis unitats de programació** (o sis situacions d'aprenentatge) i la ponderació de 2/3 oposició i 1/3 concurs.
+
+> [!WARNING]
+> És un **esborrany**: pot canviar abans de publicar-se en el DOGV. Els **criteris de qualificació** de la comissió d'Informàtica es publicaran abans de les proves; fins aleshores, la referència són els de 2025, que són els que recull la [rúbrica del bloc](/guia/rubricas).
 
 {{< quiz >}}
 - q: "Entre quants temes tries en la part A de la primera prova?"

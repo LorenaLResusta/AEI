@@ -5,7 +5,7 @@ weight: 80
 
 # 8. Oposiciones: especialidad 254 · Informática
 
-En la Comunitat Valenciana, la especialidad **254 · Informática** pertenece al **cuerpo de profesorado de Enseñanza Secundaria (0590)**. Esta página resume cómo es el procedimiento de ingreso tomando como referencia la **última convocatoria, la Orden 1/2025, de 28 de enero** (modificada por la Orden 4/2025), y los **criterios de evaluación publicados por la comisión de selección** de Informática.
+En la Comunitat Valenciana, la especialidad **254 · Informática** pertenece al **cuerpo de profesorado de Enseñanza Secundaria (0590)**. Esta página resume cómo es el procedimiento de ingreso tomando como referencia la **última convocatoria, la Orden 1/2025, de 28 de enero** (modificada por la Orden 4/2025), y los **criterios de evaluación publicados por la comisión de selección** de Informática. Las novedades del **borrador de 2026** están en el [apartado 8.5](#85-novedades-del-borrador-de-convocatoria-de-2026).
 
 > [!WARNING]
 > Cada convocatoria puede cambiar detalles (plazos, número de temas, formato). Lee siempre la **orden de la convocatoria del año** y los criterios que publica la comisión de selección de tu especialidad.
@@ -98,6 +98,26 @@ En todas las pruebas escritas y en la programación se descuentan: **0,25** por 
 - Para ser docente en la enseñanza pública o concertada necesitas el **máster de profesorado** (o la formación equivalente) además de la titulación.
 - Las **bolsas de trabajo** de la Conselleria y la **oferta semanal de puestos de difícil cobertura** permiten trabajar como interino o interina.
 - El Ministerio ofrece plazas de **profesorado visitante** y en centros españoles en el exterior.
+
+## 8.5. Novedades del borrador de convocatoria de 2026
+
+El 29 de octubre de 2026 la Conselleria presentó en la mesa sectorial el **borrador** de la próxima convocatoria de Secundaria, con **90 plazas de Informática (254)**: 81 de acceso libre y 9 de reserva para personas con diversidad funcional. Si se aprueba tal cual, cambian varios aspectos respecto a 2025:
+
+| Aspecto | Convocatoria 2025 | Borrador 2026 |
+|---|---|---|
+| Parte B (práctica) de Informática | Hasta 4 h | **2 h 30 min** |
+| Preparación de la unidad | 60 min | **20 min** |
+| Defensa de la programación | Máximo 30 min | **Máximo 20 min** |
+| Tiempo total de la segunda prueba | Hasta 1 h | **Máximo 45 min**, más preguntas del tribunal (hasta 5 min) |
+| Extensión de la programación | 60 págs. + 15 de anexos | **60 págs. con los anexos incluidos**; el índice (máx. 1 hoja) cuenta |
+| Letra | Arial 12, interlineado 1,5 | **Times New Roman 12**, interlineado 1,5 (tablas: sencillo y mínimo 10 pt) |
+| Hipervínculos | Prohibidos | Prohibidos **salvo en la webgrafía** |
+| Penalización por formato | 0,16 por incumplimiento (máx. 1) | **Hasta 1 punto**; la cuantía la fija cada comisión en sus criterios |
+
+Se mantienen las dos pruebas eliminatorias, la parte A con elección entre 4 temas y 2 horas, el mínimo de **seis unidades de programación** (o seis situaciones de aprendizaje) y la ponderación de 2/3 oposición y 1/3 concurso.
+
+> [!WARNING]
+> Es un **borrador**: puede cambiar antes de publicarse en el DOGV. Los **criterios de calificación** de la comisión de Informática se publicarán antes de las pruebas; hasta entonces, la referencia son los de 2025, que son los que recoge la [rúbrica del bloque](/guia/rubricas).
 
 {{< quiz >}}
 - q: "¿Entre cuántos temas eliges en la parte A de la primera prueba?"

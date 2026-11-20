@@ -66,7 +66,7 @@ Una hora es muy poco tiempo. No sirve para estudiar: sirve para **organizar** lo
 
 ## 9.5. Las rúbricas
 
-Las rúbricas de la PD y de la unidad (en el material) son las que se usan en las exposiciones de clase y se basan en los criterios de los tribunales. Úsalas para **autoevaluarte** antes de la exposición. Al coevaluar a tus compañeros y compañeras, recuerda que una oposición selecciona: tu valoración final debería ser coherente con dar solo una o dos plazas.
+La [rúbrica de la segunda prueba](/guia/rubricas) reproduce los criterios de la comisión de selección de Informática y es la que se usa en las exposiciones de clase; tiene calculadora y hoja de cálculo descargable. Úsala para **autoevaluarte** antes de la exposición. Al coevaluar a tus compañeros y compañeras, recuerda que una oposición selecciona: tu valoración final debería ser coherente con dar solo una o dos plazas.
 
 {{< quiz >}}
 - q: "¿En qué orden se hace la exposición en la segunda prueba?"
@@ -97,10 +97,4 @@ Las rúbricas de la PD y de la unidad (en el material) son las que se usan en la
 ### La «encerrona»
 
 - {{< doc `t09-defensa/preparacion-a-la-encerrona-visionado.pdf` `PREPARACIÓN A LA ENCERRONA` >}}
-
-### Rúbricas
-
-- {{< doc `t09-defensa/rubrica-evaluacion-pd-23-24.pdf` `Rúbrica evaluación PD_23-24` >}}
-- {{< doc `t09-defensa/rubrica-evaluacion-ut-23-24.pdf` `Rúbrica evaluación_UT_23-24` >}}
-- {{< doc `t09-defensa/rubrica-unidad-de-programacion.xlsx` `Rubrica Unidad de Programacion (copia)` >}} — Rubrica Unidad de Programacion
 <!-- MATERIAL:fin -->

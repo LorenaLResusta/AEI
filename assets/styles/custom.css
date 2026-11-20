@@ -456,3 +456,7 @@ button.bd-day { border: 0; }
 .aei-bloque.mio { --c: var(--color-accent-important); background: color-mix(in srgb, var(--color-accent-important) 6%, transparent); }
 .aei-check li { list-style: none; }
 .aei-check li::before { content: "☐ "; }
+.aei-rub td { font-size: var(--font-size-smaller); vertical-align: top; }
+.aei-rub-op { display: flex; gap: .3rem; align-items: flex-start; cursor: pointer; }
+.aei-rub-op input { margin-top: .2rem; }
+.aei-rub h4 { margin: 1rem 0 .3rem; }

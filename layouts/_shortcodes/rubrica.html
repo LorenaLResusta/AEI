@@ -1,0 +1,53 @@
+{{- /* Rúbrica interactiva de la segunda prueba. Lee data/rubrica.yaml. */ -}}
+{{- $val := eq site.Language.Lang "val" -}}
+{{- $l := cond $val "val" "es" -}}
+{{- $r := hugo.Data.rubrica -}}
+{{- $id := printf "rub-%d" .Ordinal -}}
+<div class="bd-w aei-rub" id="{{ $id }}">
+  <div class="bd-w-head"><span class="bd-w-tag">{{ cond $val "Interactiu" "Interactivo" }}</span> {{ cond $val "Calculadora de la rúbrica" "Calculadora de la rúbrica" }} <span class="bd-w-sub">{{ cond $val "Marca un nivell per indicador" "Marca un nivel por indicador" }}</span></div>
+  <div class="bd-w-body">
+  {{- range $b := $r.bloques }}
+    <h4>{{ $b.id }}. {{ index $b $l }} · {{ $b.peso }} %</h4>
+    <div class="aei-tabla"><table>
+      <thead><tr><th>{{ cond $val "Indicador" "Indicador" }}</th>{{ range $i, $n := index $r.niveles $l }}<th>{{ add $i 1 }} · {{ $n }}</th>{{ end }}</tr></thead>
+      <tbody>
+      {{- range $k, $it := $b.items }}
+        <tr>
+          <td><strong>{{ $b.id }}{{ add $k 1 }}.</strong> {{ index $it $l }}</td>
+          {{- range $i, $d := $it.n }}
+          <td><label class="aei-rub-op"><input type="radio" name="{{ $id }}-{{ $b.id }}{{ $k }}" value="{{ add $i 1 }}" data-b="{{ $b.id }}"> {{ index $d (cond $val 1 0) }}</label></td>
+          {{- end }}
+        </tr>
+      {{- end }}
+      </tbody>
+    </table></div>
+  {{- end }}
+    <div class="bd-w-out" data-c="out" aria-live="polite"></div>
+    <p><button type="button" class="bd-chip" data-c="reset">{{ cond $val "Reinicia" "Reiniciar" }}</button></p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById({{ $id }});
+  var B = {{ $r.bloques | jsonify | safeJS }};
+  var VAL = {{ $val }};
+  function calc() {
+    var total = 0, falta = 0, partes = [];
+    B.forEach(function (b) {
+      var s = 0, n = 0;
+      for (var k = 0; k < b.items.length; k++) {
+        var x = root.querySelector('input[name="{{ $id }}-' + b.id + k + '"]:checked');
+        if (x) { s += x.value * 2.5; n++; } else falta++;
+      }
+      var m = n ? s / n : 0; total += m * b.peso / 100;
+      partes.push(b.id + ': ' + (n ? m.toFixed(2) : '—'));
+    });
+    var o = root.querySelector('[data-c="out"]');
+    o.textContent = (VAL ? 'Nota de la segona prova: ' : 'Nota de la segunda prueba: ') + total.toFixed(2) + ' / 10   (' + partes.join(' · ') + ')' +
+      (falta ? (VAL ? '   · Falten ' : '   · Faltan ') + falta + (VAL ? ' indicadors' : ' indicadores') : '');
+  }
+  root.addEventListener('change', calc);
+  root.querySelector('[data-c="reset"]').addEventListener('click', function () { root.querySelectorAll('input').forEach(function (i) { i.checked = false; }); calc(); });
+  calc();
+})();
+</script>

@@ -11,7 +11,9 @@ Publicada en GitHub Pages: <https://lorenalresusta.github.io/AEI/>.
 | `content.es/`, `content.val/` | Páginas en castellano y valenciano (mismas rutas en los dos idiomas) |
 | `data/sesiones.yaml` | Planificación sesión a sesión. Alimenta el calendario de la portada y la tabla de la guía |
 | `static/recursos/<tema>/` | Documentos de la asignatura (procedentes de la copia de Moodle) |
-| `layouts/_shortcodes/` | `calendario`, `sesiones`, `doc`, `quiz`, `tarjetas`, `curiosidad` |
+| `data/rubrica.yaml` | Rúbrica de la segunda prueba (criterios de la comisión 254, 2025). Alimenta la página *Rúbricas* |
+| `layouts/_shortcodes/` | `calendario`, `sesiones`, `rubrica`, `doc`, `quiz`, `tarjetas`, `curiosidad` |
+| `tools/rubrica_xlsx.py` | Genera la hoja de cálculo de la rúbrica a partir de `data/rubrica.yaml` |
 | `tools/material.py` | Regenera los listados «Material de la asignatura» a partir de una copia `.mbz` descomprimida |
 
 ## Cambiar el calendario

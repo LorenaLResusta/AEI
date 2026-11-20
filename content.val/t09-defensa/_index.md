@@ -66,7 +66,7 @@ Una hora és molt poc de temps. No servix per a estudiar: servix per a **organit
 
 ## 9.5. Les rúbriques
 
-Les rúbriques de la PD i de la unitat (en el material) són les que s'usen en les exposicions de classe i es basen en els criteris dels tribunals. Usa-les per a **autoavaluar-te** abans de l'exposició. Quan coavalues els teus companys i companyes, recorda que una oposició selecciona: la teua valoració final hauria de ser coherent amb donar només una o dues places.
+La [rúbrica de la segona prova](/guia/rubricas) reprodueix els criteris de la comissió de selecció d'Informàtica i és la que s'usa en les exposicions de classe; té calculadora i full de càlcul descarregable. Usa-la per a **autoavaluar-te** abans de l'exposició. Quan coavalues els teus companys i companyes, recorda que una oposició selecciona: la teua valoració final hauria de ser coherent amb donar només una o dues places.
 
 {{< quiz >}}
 - q: "En quin ordre es fa l'exposició en la segona prova?"
@@ -97,10 +97,4 @@ Les rúbriques de la PD i de la unitat (en el material) són les que s'usen en l
 ### L'«encerrona»
 
 - {{< doc `t09-defensa/preparacion-a-la-encerrona-visionado.pdf` `PREPARACIÓN A LA ENCERRONA` >}}
-
-### Rúbriques
-
-- {{< doc `t09-defensa/rubrica-evaluacion-pd-23-24.pdf` `Rúbrica evaluación PD_23-24` >}}
-- {{< doc `t09-defensa/rubrica-evaluacion-ut-23-24.pdf` `Rúbrica evaluación_UT_23-24` >}}
-- {{< doc `t09-defensa/rubrica-unidad-de-programacion.xlsx` `Rubrica Unidad de Programacion (copia)` >}} — Rubrica Unidad de Programacion
 <!-- MATERIAL:fin -->

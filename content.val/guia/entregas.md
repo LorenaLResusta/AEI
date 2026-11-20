@@ -25,31 +25,20 @@ No hi ha examen final. La nota de l'assignatura s'obté amb pràctiques individu
 Els lliuraments es fan en les tasques de Moodle de l'assignatura. Les dates exactes es publiquen en Moodle.
 
 > [!WARNING]
-> Prepara la PD **amb el format de la convocatòria**: DIN-A4, Arial 12, interlineat 1,5, màxim 60 pàgines sense comptar portada, índex i annexos (annexos de 15 pàgines com a màxim) i **sense hipervincles**. En l'oposició, cada incompliment de format resta 0,16 punts ([tema 8](/t08-oposiciones)).
+> El format depén de la convocatòria. L'**esborrany de 2026** demana Times New Roman 12, interlineat 1,5 i 60 pàgines **amb els annexos inclosos**, i només admet enllaços en la webgrafia ([tema 8](/t08-oposiciones)). En la convocatòria de 2025 era: DIN-A4, Arial 12, interlineat 1,5, màxim 60 pàgines sense comptar portada, índex i annexos (annexos de 15 pàgines com a màxim) i **sense hipervincles**. En l'oposició, cada incompliment de format resta 0,16 punts ([tema 8](/t08-oposiciones)).
 
 ## Com s'avalua
 
-S'usen les rúbriques de l'assignatura, que segueixen els criteris dels tribunals d'oposició.
+Les exposicions s'avaluen amb la [rúbrica de la segona prova](/guia/rubricas), basada en els criteris que va publicar la comissió de selecció d'Informàtica en l'última oposició (2025):
 
-### Programació didàctica
+| Bloc | Pes |
+|---|:-:|
+| A. Aspecte formal | 5 % |
+| B. Aspectes pedagògics, didàctics, metodològics i d'avaluació | 25 % |
+| C. Estructura i desenvolupament | 30 % |
+| D. Competència comunicativa | 40 % |
 
-| Criteri | Què es valora | Pes |
-|---|---|:-:|
-| Contingut i estructura | Hi ha tots els apartats que demana la convocatòria, l'estructura és coherent i fàcil de seguir, i els annexos aporten informació de valor | 30 % |
-| Metodologia i avaluació | Metodologia adequada al nivell, seqüenciació i temporització correctes de les unitats, procediment d'avaluació ben definit, atenció a l'alumnat amb NESE | 30 % |
-| Redacció i format | Registre i vocabulari tècnic adequats, format ajustat a la convocatòria | 20 % |
-| Exposició | Temps ajustat, fluïdesa, terminologia correcta i respostes a les preguntes | 20 % |
-
-### Unitat de treball
-
-| Criteri | Què es valora | Pes |
-|---|---|:-:|
-| Estructura i organització | Document organitzat i coherent que recull tots els punts de la convocatòria | 20 % |
-| Contingut | Continguts explicats amb detall; activitats variades, viables, innovadores i ben seqüenciades, que porten a un aprenentatge significatiu | 30 % |
-| Metodologia i avaluació | Metodologia activa adequada al nivell; avaluació coherent i rigorosa amb diversos instruments; inclusió de l'alumnat amb NESE | 30 % |
-| Presentació | Exposició fluïda i clara, sense llegir; capta l'interés i respon amb domini a les preguntes | 20 % |
-
-Les rúbriques completes es poden descarregar en el [tema 9](/t09-defensa).
+La rúbrica completa, amb els descriptors de cada nivell, una calculadora i el full de càlcul descarregable, és en [Rúbriques](/guia/rubricas).
 
 ## Llista de comprovació abans de lliurar
 
