@@ -28,6 +28,8 @@ Estos principios aparecen, con distintas palabras, en casi todas las buenas prog
 
 ## 4.3. Metodologías activas
 
+![Seis metodologías activas](es/met-mosaico.svg "Metodologías activas para el aula de informática")
+
 | Metodología | En qué consiste | Ejemplo en informática |
 |---|---|---|
 | **Aprendizaje basado en proyectos (ABP)** | El alumnado elabora un producto a lo largo de varias sesiones | Desarrollar la web de una asociación del barrio |
@@ -36,12 +38,48 @@ Estos principios aparecen, con distintas palabras, en casi todas las buenas prog
 | ***Flipped classroom*** | La teoría se estudia en casa y el aula se dedica a practicar | Vídeo sobre SQL en casa y laboratorio de consultas en clase |
 | **Aprendizaje cooperativo** | Equipos con roles y responsabilidad individual | Equipos de desarrollo con roles rotativos (Scrum) |
 | **Gamificación** | Mecánicas de juego para motivar | *Escape room* de redes, puntos y niveles |
+| **eduScrum** | Equipos autoorganizados que aprenden en *sprints*, con tablero y retrospectiva | Desarrollar una aplicación por *sprints* con revisión al final de cada uno |
 
 ### El aprendizaje basado en retos
 
 El modelo **ETHAZI** del País Vasco (Tknika) es la referencia del ABR en la FP: el alumnado trabaja por equipos sobre retos que integran resultados de aprendizaje de varios módulos, y el profesorado actúa como guía. Un **reto** es una situación problemática, abierta y vinculada a la realidad profesional, que exige movilizar conocimientos, habilidades y actitudes.
 
-## 4.4. Situaciones de aprendizaje
+## 4.4. eduScrum
+
+**eduScrum** adapta al aula el marco ágil *Scrum* del desarrollo de *software*. Lo creó en 2011 el profesor neerlandés **Willy Wijnands** y encaja de forma natural en la FP de informática: el alumnado aprende los contenidos del módulo **trabajando como lo hará en una empresa de desarrollo**.
+
+![Ciclo de un sprint de eduScrum](es/eduscrum-ciclo.svg "El ciclo de un sprint en eduScrum")
+
+### Roles
+
+| Rol | Quién | Qué hace |
+|---|---|---|
+| ***Product owner*** | El o la docente | Decide **qué** se aprende: objetivos, RA, criterios de evaluación y la *definición de terminado*. Acompaña y da retroalimentación |
+| ***eduScrum master*** | Un alumno o alumna de cada equipo | Facilita el trabajo del equipo, modera el *stand-up* y vigila el tablero |
+| **Equipo** | 4 o 5 alumnos y alumnas | Decide **cómo** se aprende: reparte tareas, se organiza y se autoevalúa |
+
+Los equipos se forman a partir de las **habilidades** de cada persona (las elige el propio alumnado, empezando por los eduScrum masters), para que sean equilibrados.
+
+### Eventos
+
+1. **Planificación del sprint.** El equipo convierte los objetivos en tareas, las reparte y acuerda sus normas de convivencia (*definition of fun*).
+2. ***Stand-up*.** Cinco minutos al inicio de cada clase, de pie ante el tablero: *¿qué hice?, ¿qué haré?, ¿qué me frena?*
+3. **Revisión.** El equipo muestra lo aprendido y se evalúa con los criterios acordados.
+4. **Retrospectiva.** El equipo reflexiona sobre **cómo** ha trabajado y decide qué mejora en el siguiente sprint.
+
+### Artefactos
+
+- **Pila de aprendizaje** (*backlog*): objetivos, retos y entregables de la unidad.
+- **Tablero** (*flap board*): columnas *por hacer, haciendo, hecho*, con notas adhesivas.
+- **Definición de terminado** (*definition of done*): cuándo una tarea está realmente acabada.
+- **Gráfico de avance** (*burndown*): el trabajo que queda frente al tiempo.
+
+![Tablero de un equipo eduScrum](es/eduscrum-tablero.svg "Ejemplo de tablero en una unidad de ASIR")
+
+> [!TIP]
+> En la PD, eduScrum es especialmente coherente con los RA de módulos como **Entornos de desarrollo**, **Proyecto intermodular** o cualquier módulo de DAM, DAW o ASIR con productos entregables. Justifícalo con las orientaciones pedagógicas del título y el RD 659/2023, que pide metodologías activas «próximas a la realidad productiva».
+
+## 4.5. Situaciones de aprendizaje
 
 En **ESO y Bachillerato**, la LOMLOE organiza la programación en **situaciones de aprendizaje (SA)**: actividades que implican al alumnado en acciones vinculadas con sus competencias clave y específicas, en un contexto significativo. En la FP no están reguladas como tales, pero su lógica encaja con los retos y proyectos.
 
@@ -56,7 +94,7 @@ Para cada SA, la convocatoria pide indicar:
 > [!TIP]
 > En el material tienes plantillas de situación de aprendizaje de varias comunidades autónomas (Comunitat Valenciana, Canarias, Cantabria, Cataluña). La mayoría están pensadas para ESO: **adáptalas** si las usas en FP.
 
-## 4.5. Tipos de actividades
+## 4.6. Tipos de actividades
 
 Clasifica las actividades de cada unidad para que se vea su función:
 
@@ -67,12 +105,29 @@ Clasifica las actividades de cada unidad para que se vea su función:
 5. **De evaluación**.
 6. **Complementarias y extraescolares**.
 
-## 4.6. Organización del aula, agrupamientos y recursos
+## 4.7. Organización del aula, agrupamientos y recursos
 
 Explica en tu PD cómo es el **aula** (aula técnica con un puesto por alumno, red, proyector, servidor), cómo **agrupas** al alumnado (individual, parejas, pequeño grupo, gran grupo) y qué **recursos** usas (*software*, documentación técnica, plataformas, libros de referencia). Sé **realista**: no programes actividades que requieran medios que un instituto no suele tener.
 
 > [!NOTE]
 > Las dinámicas de grupo ayudan a formar equipos equilibrados al principio de curso. En el material tienes técnicas como el test DISC o el modelo de los cuatro colores.
+
+## 4.8. Actividades complementarias y extraescolares
+
+![Actividades complementarias y extraescolares](es/complementarias.svg "Ideas de actividades para la familia de Informática")
+
+| | Complementarias | Extraescolares |
+|---|---|---|
+| **Cuándo** | En horario lectivo | Fuera del horario lectivo |
+| **Para quién** | Todo el grupo | Alumnado que se apunta |
+| **Carácter** | Forman parte de la programación; pueden evaluarse | Voluntarias; **no** son evaluables ni pueden discriminar a quien no participa |
+| **Ejemplos** | Visita a un CPD o a una empresa de *software*, charla de un profesional, CodeWeek, jornada de ciberseguridad | Olimpiada de Informática, Skills, club de robótica, *hackathon*, movilidad Erasmus+ |
+
+Son un **apartado obligatorio de la programación** (artículo 9 del Decreto 114/2025 y apartado 7 de las instrucciones de inicio de curso). Se aprueban en el centro y se incluyen en la **programación general anual (PGA)**. En tu PD:
+
+- relaciónalas con los **RA y las unidades** en las que se integran (no son una excursión suelta);
+- indica **cuándo** se harán y qué **preparación y actividad posterior** tienen en el aula;
+- prevé una **alternativa** para el alumnado que no pueda asistir y las **medidas de accesibilidad** necesarias.
 
 {{< quiz >}}
 - q: "Según la LOE modificada por la LOMLOE, ¿forman parte del currículo los métodos pedagógicos?"

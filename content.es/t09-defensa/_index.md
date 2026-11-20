@@ -14,7 +14,7 @@ Un guion que funciona:
 | Parte | Qué decir | Tiempo orientativo |
 |---|---|:-:|
 | **1. Presentación** | Saludo al tribunal, nombre, apartado de la convocatoria, módulo, curso y ciclo que has programado | 1 min |
-| **2. Marco legal** | LOE-LOMLOE, LO 3/2022 y RD 659/2023, real decreto del título, currículo de la Comunitat Valenciana, normativa de evaluación e inclusión, resolución de inicio de curso. Autonomía pedagógica de los centros | 3 min |
+| **2. Marco legal** | LOE-LOMLOE, LO 3/2022 y RD 659/2023, real decreto del título, currículo de la Comunitat Valenciana, Orden 8/2025 de evaluación (mod. Orden 5/2026), Decreto 104/2018 y Orden 20/2019, Resolución de inicio de curso 2026/27. Autonomía pedagógica de los centros | 3 min |
 | **3. Contexto** | Centro, entorno socioeconómico y características del grupo | 2 min |
 | **4. Estructura de la PD** | Esquema o mapa conceptual en la pizarra con los apartados | 2 min |
 | **5. Objetivos y competencias** | Objetivos generales, competencias y RA del módulo; cómo se relacionan (tabla de doble entrada) | 4 min |

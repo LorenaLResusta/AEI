@@ -28,6 +28,8 @@ Aquests principis apareixen, amb paraules diferents, en quasi totes les bones pr
 
 ## 4.3. Metodologies actives
 
+![Sis metodologies actives](val/met-mosaico.svg "Metodologies actives per a l'aula d'informàtica")
+
 | Metodologia | En què consisteix | Exemple en informàtica |
 |---|---|---|
 | **Aprenentatge basat en projectes (ABP)** | L'alumnat elabora un producte al llarg de diverses sessions | Desenvolupar la web d'una associació del barri |
@@ -36,12 +38,48 @@ Aquests principis apareixen, amb paraules diferents, en quasi totes les bones pr
 | ***Flipped classroom*** | La teoria s'estudia a casa i l'aula es dedica a practicar | Vídeo sobre SQL a casa i laboratori de consultes a classe |
 | **Aprenentatge cooperatiu** | Equips amb rols i responsabilitat individual | Equips de desenvolupament amb rols rotatius (Scrum) |
 | **Gamificació** | Mecàniques de joc per a motivar | *Escape room* de xarxes, punts i nivells |
+| **eduScrum** | Equips autoorganitzats que aprenen en *sprints*, amb tauler i retrospectiva | Desenvolupar una aplicació per *sprints* amb revisió al final de cadascun |
 
 ### L'aprenentatge basat en reptes
 
 El model **ETHAZI** del País Basc (Tknika) és la referència de l'ABR en l'FP: l'alumnat treballa per equips sobre reptes que integren resultats d'aprenentatge de diversos mòduls, i el professorat actua com a guia. Un **repte** és una situació problemàtica, oberta i vinculada a la realitat professional, que exigeix mobilitzar coneixements, habilitats i actituds.
 
-## 4.4. Situacions d'aprenentatge
+## 4.4. eduScrum
+
+**eduScrum** adapta a l'aula el marc àgil *Scrum* del desenvolupament de programari. El va crear el 2011 el professor neerlandés **Willy Wijnands** i encaixa de manera natural en l'FP d'informàtica: l'alumnat aprén els continguts del mòdul **treballant com ho farà en una empresa de desenvolupament**.
+
+![Cicle d'un sprint d'eduScrum](val/eduscrum-ciclo.svg "El cicle d'un sprint en eduScrum")
+
+### Rols
+
+| Rol | Qui | Què fa |
+|---|---|---|
+| ***Product owner*** | El o la docent | Decideix **què** s'aprén: objectius, RA, criteris d'avaluació i la *definició d'acabat*. Acompanya i dona retroalimentació |
+| ***eduScrum master*** | Un alumne o alumna de cada equip | Facilita el treball de l'equip, modera l'*stand-up* i vigila el tauler |
+| **Equip** | 4 o 5 alumnes | Decideix **com** s'aprén: reparteix tasques, s'organitza i s'autoavalua |
+
+Els equips es formen a partir de les **habilitats** de cada persona (les tria el mateix alumnat, començant pels eduScrum masters), perquè siguen equilibrats.
+
+### Esdeveniments
+
+1. **Planificació de l'sprint.** L'equip converteix els objectius en tasques, les reparteix i acorda les seues normes de convivència (*definition of fun*).
+2. ***Stand-up*.** Cinc minuts a l'inici de cada classe, dempeus davant del tauler: *què vaig fer?, què faré?, què em frena?*
+3. **Revisió.** L'equip mostra el que ha après i s'avalua amb els criteris acordats.
+4. **Retrospectiva.** L'equip reflexiona sobre **com** ha treballat i decideix què millora en l'sprint següent.
+
+### Artefactes
+
+- **Pila d'aprenentatge** (*backlog*): objectius, reptes i lliurables de la unitat.
+- **Tauler** (*flap board*): columnes *per fer, fent, fet*, amb notes adhesives.
+- **Definició d'acabat** (*definition of done*): quan una tasca està realment acabada.
+- **Gràfic d'avanç** (*burndown*): el treball que queda davant del temps.
+
+![Tauler d'un equip eduScrum](val/eduscrum-tablero.svg "Exemple de tauler en una unitat d'ASIR")
+
+> [!TIP]
+> En la PD, eduScrum és especialment coherent amb els RA de mòduls com **Entorns de desenvolupament**, **Projecte intermodular** o qualsevol mòdul de DAM, DAW o ASIR amb productes lliurables. Justifica-ho amb les orientacions pedagògiques del títol i el RD 659/2023, que demana metodologies actives «pròximes a la realitat productiva».
+
+## 4.5. Situacions d'aprenentatge
 
 En **ESO i Batxillerat**, la LOMLOE organitza la programació en **situacions d'aprenentatge (SA)**: activitats que impliquen l'alumnat en accions vinculades amb les seues competències clau i específiques, en un context significatiu. En l'FP no estan regulades com a tals, però la seua lògica encaixa amb els reptes i els projectes.
 
@@ -56,7 +94,7 @@ Per a cada SA, la convocatòria demana indicar:
 > [!TIP]
 > En el material tens plantilles de situació d'aprenentatge de diverses comunitats autònomes (Comunitat Valenciana, Canàries, Cantàbria, Catalunya). La majoria estan pensades per a ESO: **adapta-les** si les uses en FP.
 
-## 4.5. Tipus d'activitats
+## 4.6. Tipus d'activitats
 
 Classifica les activitats de cada unitat perquè se'n veja la funció:
 
@@ -67,12 +105,29 @@ Classifica les activitats de cada unitat perquè se'n veja la funció:
 5. **D'avaluació**.
 6. **Complementàries i extraescolars**.
 
-## 4.6. Organització de l'aula, agrupaments i recursos
+## 4.7. Organització de l'aula, agrupaments i recursos
 
 Explica en la teua PD com és l'**aula** (aula tècnica amb un lloc per alumne, xarxa, projector, servidor), com **agrupes** l'alumnat (individual, parelles, grup xicotet, grup gran) i quins **recursos** uses (programari, documentació tècnica, plataformes, llibres de referència). Sigues **realista**: no programes activitats que requerisquen mitjans que un institut no sol tindre.
 
 > [!NOTE]
 > Les dinàmiques de grup ajuden a formar equips equilibrats al principi de curs. En el material tens tècniques com el test DISC o el model dels quatre colors.
+
+## 4.8. Activitats complementàries i extraescolars
+
+![Activitats complementàries i extraescolars](val/complementarias.svg "Idees d'activitats per a la família d'Informàtica")
+
+| | Complementàries | Extraescolars |
+|---|---|---|
+| **Quan** | En horari lectiu | Fora de l'horari lectiu |
+| **Per a qui** | Tot el grup | Alumnat que s'hi apunta |
+| **Caràcter** | Formen part de la programació; es poden avaluar | Voluntàries; **no** són avaluables ni poden discriminar qui no hi participa |
+| **Exemples** | Visita a un CPD o a una empresa de programari, xarrada d'un professional, CodeWeek, jornada de ciberseguretat | Olimpíada d'Informàtica, Skills, club de robòtica, *hackathon*, mobilitat Erasmus+ |
+
+Són un **apartat obligatori de la programació** (article 9 del Decret 114/2025 i apartat 7 de les instruccions d'inici de curs). S'aproven en el centre i s'inclouen en la **programació general anual (PGA)**. En la teua PD:
+
+- relaciona-les amb els **RA i les unitats** en què s'integren (no són una excursió solta);
+- indica **quan** es faran i quina **preparació i activitat posterior** tenen a l'aula;
+- preveu una **alternativa** per a l'alumnat que no hi puga assistir i les **mesures d'accessibilitat** necessàries.
 
 {{< quiz >}}
 - q: "Segons la LOE modificada per la LOMLOE, formen part del currículum els mètodes pedagògics?"

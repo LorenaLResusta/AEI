@@ -37,12 +37,14 @@ El detall sessió a sessió és en la [guia de l'assignatura](/guia).
 
 ## Continguts del bloc
 
+![Ruta dels nou temes del bloc fins a l'oposició](val/ruta.svg "Els nou temes del bloc, en l'ordre en què es treballen")
+
 | Tema | Què aprendràs |
 |---|---|
 | [1. Sistema educatiu i marc legal](/t01-sistema-educativo) | De la LOE a la LOMLOE i la nova Llei d'FP (LO 3/2022). Graus d'FP, formació en empresa i FP dual |
 | [2. Els ensenyaments d'informàtica](/t02-ensenanzas-informatica) | Títols SMR, ASIR, DAM i DAW, currículums de la Comunitat Valenciana i matèries d'ESO i Batxillerat |
-| [3. La programació didàctica](/t03-programacion-didactica) | Nivells de concreció, apartats obligatoris (Decret 114/2025 i convocatòria), format i exemples |
-| [4. Metodologia i situacions d'aprenentatge](/t04-metodologia) | Metodologies actives, aprenentatge basat en reptes, situacions d'aprenentatge, seqüenciació |
+| [3. La programació didàctica](/t03-programacion-didactica) | Les bases de la PD, nivells de concreció, apartats obligatoris (Decret 114/2025 i convocatòria), format i exemples |
+| [4. Metodologia i situacions d'aprenentatge](/t04-metodologia) | Metodologies actives, eduScrum, reptes, situacions d'aprenentatge, activitats complementàries i extraescolars |
 | [5. Avaluació](/t05-evaluacion) | Normativa, resultats d'aprenentatge i criteris, instruments, rúbriques i qualificació |
 | [6. Atenció a la diversitat i inclusió](/t06-inclusion) | Decret 104/2018, Ordre 20/2019, nivells de resposta, alumnat amb NESE |
 | [7. La unitat de programació](/t07-unidad-programacion) | Elements d'una UT/UP, redacció, activitats, connexió amb la PD |

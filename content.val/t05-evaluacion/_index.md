@@ -7,18 +7,22 @@ weight: 50
 
 L'avaluació és l'apartat de la PD que més preguntes genera en el tribunal. Has de demostrar que saps **què** avalues (resultats d'aprenentatge i criteris), **com** ho avalues (tècniques i instruments), **quan** (inicial, contínua i final) i **com qualifiques**.
 
+![Cicle de l'avaluació: recollir informació, valorar, decidir i millorar](val/eval-ciclo.svg "Avaluar és molt més que posar una nota")
+
 ## 5.1. Normativa
 
 | Norma | Àmbit |
 |---|---|
 | **RD 984/2021**, de 16 de novembre | Avaluació, promoció i titulació en Primària, ESO, Batxillerat i FP (estatal) |
 | **RD 659/2023** | Avaluació en el nou sistema d'FP |
-| **Ordre 79/2010**, de 27 d'agost | Avaluació de l'alumnat dels cicles formatius a la Comunitat Valenciana |
-| **Ordre 38/2017**, de 4 d'octubre | Avaluació en ESO, Batxillerat i persones adultes a la Comunitat Valenciana (revisa la normativa LOMLOE que la substitueix o modifica) |
-| Resolució anual d'inici de curs | Calendari d'avaluacions i detalls organitzatius |
+| **Ordre 8/2025**, de 22 d'abril, **modificada per l'Ordre 5/2026** | Avaluació en els cicles formatius i cursos d'especialització de la LO 3/2022 a la Comunitat Valenciana |
+| **Resolució de 16 de juliol de 2026** | Instruccions d'inici de curs 2026/27 d'FP: qualificacions, convocatòries, avaluació de la FE |
+| **Ordre 19/2023**, de 29 de juny | Procediments d'ESO i Batxillerat LOMLOE, inclosa l'avaluació |
+| Ordre 32/2011, de 20 de desembre | Objectivitat en l'avaluació i reclamacions |
+| Ordre 79/2010 | Només per als cicles LOGSE que encara queden |
 
 > [!WARNING]
-> En la PD **cita sempre la norma** quan descrigues el teu sistema d'avaluació: *«D'acord amb el que estableix l'Ordre 79/2010…»*. Comprova abans que continua vigent i si ha sigut modificada.
+> En la PD **cita sempre la norma** quan descrigues el teu sistema d'avaluació: *«D'acord amb el que estableix l'Ordre 8/2025, de 22 d'abril, modificada per l'Ordre 5/2026…»*. Comprova abans que continua vigent i si ha sigut modificada.
 
 ## 5.2. Característiques de l'avaluació en FP
 
@@ -28,7 +32,16 @@ L'avaluació és l'apartat de la PD que més preguntes genera en el tribunal. Ha
 - **Per mòduls:** cada mòdul s'avalua i es qualifica per separat, tenint en compte la competència general del títol.
 - **Integradora** en l'equip docent, especialment amb la formació en empresa i el projecte intermodular.
 
+### Qualificació i convocatòries (grau D, curs 2026/27)
+
+- Els mòduls es qualifiquen d'**1 a 10 sense decimals**; s'aproven amb un 5.
+- Hi ha **dues convocatòries per curs** i un **màxim de quatre** per mòdul.
+- En els mòduls amb RA en l'empresa, la nota final la posa el professorat del mòdul **tenint en compte la valoració del tutor o tutora d'empresa**.
+- En grau superior, la qualificació del projecte intermodular de primer curs és orientativa i es pondera amb la de segon.
+
 ### Moments
+
+![Línia temporal amb avaluació inicial, contínua i final](val/eval-momentos.svg "L'avaluació acompanya tot el curs")
 
 | Moment | Per a què | Exemples |
 |---|---|---|
@@ -57,6 +70,8 @@ flowchart LR
 > Una taula **RA – pes – criteris – unitat – instrument** en la PD (o en un annex) resol d'un colp d'ull la pregunta clàssica del tribunal: *«com qualifiques el mòdul?»*.
 
 ## 5.4. Tècniques, procediments i instruments
+
+![Sis instruments d'avaluació](val/eval-instrumentos.svg "Cada instrument mira l'aprenentatge des d'un angle diferent")
 
 - **Tècnica o procediment:** el *com* es recull la informació (observació, anàlisi de produccions, proves, entrevistes, autoavaluació, coavaluació).
 - **Instrument:** l'eina concreta on es registra (rúbrica, llista de control, escala de valoració, diari del professorat, prova escrita o pràctica, portafolis, qüestionari).
@@ -89,9 +104,9 @@ Una rúbrica és una matriu amb **criteris** (files), **nivells d'assoliment** (
   answer: 1
   explain: "La tècnica és la manera de recollir informació (per exemple, l'observació); la llista de control és l'instrument on es registra."
 - q: "Quina norma regula l'avaluació de l'alumnat d'FP a la Comunitat Valenciana?"
-  options: ["Ordre 79/2010", "Ordre 20/2019", "Decret 104/2018"]
+  options: ["Ordre 8/2025", "Ordre 20/2019", "Decret 104/2018"]
   answer: 0
-  explain: "L'Ordre 79/2010 regula l'avaluació en els cicles formatius. L'Ordre 20/2019 i el Decret 104/2018 tracten la inclusió."
+  explain: "L'Ordre 8/2025 (modificada per l'Ordre 5/2026) regula l'avaluació en els cicles de la nova llei; l'Ordre 79/2010 només queda per als cicles LOGSE. L'Ordre 20/2019 i el Decret 104/2018 tracten la inclusió."
 {{< /quiz >}}
 
 <!-- MATERIAL:inicio -->
@@ -101,8 +116,8 @@ Una rúbrica és una matriu amb **criteris** (files), **nivells d'assoliment** (
 
 - {{< doc `t05-evaluacion/rd-984-2021-regulacion-evaluacion-ep-eso-bach-fp.pdf` `Regulación evaluación EP_ESO_BACH_FP` >}} — Real Decreto 984/2021, de 16 de noviembre, por el que se regulan la evaluación y la promoción en la Educación Primaria, así como la evaluación, la promoción y la titulación en la Educación Secundaria Obligatoria, el Bachillerato y la Formación Profesional.
 - {{< doc `t05-evaluacion/extracto-rd-984-2021-y-rd-659-2023-evaluacion-fp.pdf` `Extracto RD 984_2021_y_RD_659_2023_Evaluación FP` >}}
-- {{< doc `t05-evaluacion/orden-38-2017-regulacion-eso-bach-padult-cv.pdf` `Orden 38_2017_Regulación ESO_BACH_PA_CV` >}} — ORDEN 38/2017, de 4 de octubre, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula la evaluación en Educación Secundaria Obligatoria, en Bachillerato y en las enseñanzas de la Educación de las Personas Adultas en la Comunitat Valenciana.
-- {{< doc `t05-evaluacion/orden79-evaluacion-alumnadofp-cv.pdf` `Orden 79/2010_Evaluación Alumnado_FP` >}} — ORDEN 79/2010, de 27 de agosto, de la Conselleria de Educación, por la que se regula la evaluación del alumnado de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana. [2010/9553]
+- {{< doc `t05-evaluacion/orden-38-2017-regulacion-eso-bach-padult-cv.pdf` `Ordre 38/2017 d'avaluació d'ESO i Batxillerat (anterior a la LOMLOE; vegeu Ordre 19/2023)` >}} — ORDEN 38/2017, de 4 de octubre, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula la evaluación en Educación Secundaria Obligatoria, en Bachillerato y en las enseñanzas de la Educación de las Personas Adultas en la Comunitat Valenciana.
+- {{< doc `t05-evaluacion/orden79-evaluacion-alumnadofp-cv.pdf` `Ordre 79/2010 d'avaluació (només cicles LOGSE; els actuals: Ordre 8/2025)` >}} — ORDEN 79/2010, de 27 de agosto, de la Conselleria de Educación, por la que se regula la evaluación del alumnado de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana. [2010/9553]
 - {{< doc `t05-evaluacion/orden-ecd652015-de-21-de-enero.pdf` `Orden ECD652015, de 21 de enero` >}} — Se describen las relaciones entre las competencias, los contenidos y los criterios de evaluación de la educación primaria, la educación secundaria obligatoria y el bachillerato.
 - [Ordenación Legislativa Evaluación](https://ceice.gva.es/es/web/formacion-profesional/normativa-sobre-ordenacion-y-organizacion-academica-de-los-ciclos-formativos)
 

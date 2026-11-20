@@ -14,8 +14,13 @@ La convocatoria y los criterios de los tribunales insisten en la **inclusión**:
 | **LOE, art. 71 y siguientes** (modificada por la LOMLOE) | Alumnado con necesidad específica de apoyo educativo (NEAE). El art. 39 añade que la FP atenderá especialmente a este alumnado manteniendo la inclusión como principio |
 | **Decreto 104/2018**, de 27 de julio | Principios de equidad e inclusión en el sistema educativo valenciano |
 | **Orden 20/2019**, de 30 de abril | Organización de la respuesta educativa para la inclusión del alumnado. Su **artículo 14** trata la adecuación personalizada de las programaciones didácticas |
+| Decreto 72/2021 y Orden 10/2023 | Orientación educativa y profesional |
+| Resolución de 23 de diciembre de 2021 | Detección e identificación de necesidades específicas de apoyo educativo |
+| Resolución de 24 de julio de 2019 | Atención al alumnado hospitalizado o convaleciente |
 
 ## 6.2. ¿Quién es alumnado con NEAE?
+
+![Mapa de las categorías de NEAE con las NEE en el centro](es/neae-mapa.svg "Las NEE son una parte de las NEAE")
 
 Según la LOE, requiere una atención educativa diferente a la ordinaria el alumnado con:
 
@@ -35,6 +40,8 @@ Según la LOE, requiere una atención educativa diferente a la ordinaria el alum
 ## 6.3. Los niveles de respuesta en la Comunitat Valenciana
 
 La Orden 20/2019 organiza las medidas en **cuatro niveles**, de lo general a lo individual:
+
+![Pirámide de los cuatro niveles de respuesta](es/inclusion-niveles.svg "De todo el centro a cada alumno o alumna")
 
 | Nivel | Destinatarios | Ejemplos |
 |---|---|---|

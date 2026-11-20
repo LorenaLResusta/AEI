@@ -14,7 +14,7 @@ Un guió que funciona:
 | Part | Què cal dir | Temps orientatiu |
 |---|---|:-:|
 | **1. Presentació** | Salutació al tribunal, nom, apartat de la convocatòria, mòdul, curs i cicle que has programat | 1 min |
-| **2. Marc legal** | LOE-LOMLOE, LO 3/2022 i RD 659/2023, reial decret del títol, currículum de la Comunitat Valenciana, normativa d'avaluació i inclusió, resolució d'inici de curs. Autonomia pedagògica dels centres | 3 min |
+| **2. Marc legal** | LOE-LOMLOE, LO 3/2022 i RD 659/2023, reial decret del títol, currículum de la Comunitat Valenciana, Ordre 8/2025 d'avaluació (mod. Ordre 5/2026), Decret 104/2018 i Ordre 20/2019, Resolució d'inici de curs 2026/27. Autonomia pedagògica dels centres | 3 min |
 | **3. Context** | Centre, entorn socioeconòmic i característiques del grup | 2 min |
 | **4. Estructura de la PD** | Esquema o mapa conceptual en la pissarra amb els apartats | 2 min |
 | **5. Objectius i competències** | Objectius generals, competències i RA del mòdul; com es relacionen (taula de doble entrada) | 4 min |

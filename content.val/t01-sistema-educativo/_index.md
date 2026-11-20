@@ -53,9 +53,16 @@ Tota l'FP té ara **caràcter dual**: una part de la formació es fa en l'empres
 | Règim | Durada de la FE | Resultats d'aprenentatge en l'empresa |
 |---|---|---|
 | **General** | Entre el 25 % i el 35 % de la durada total del cicle | Almenys el 10 % dels RA |
-| **Intensiu** | Com a mínim el 35 % | Almenys el 30 % dels RA (amb autorització) |
+| **Intensiu** | Més del 35 % i fins al 50 % | Almenys el 30 % dels RA (amb autorització) |
 
 La FE **no té currículum propi**: contribueix a assolir part dels resultats d'aprenentatge dels mòduls. Per això la teua programació ha d'indicar **quins RA es treballen en l'empresa**.
+
+Les **instruccions d'inici de curs 2026/27** (Resolució de 16 de juliol de 2026) concreten com s'organitza:
+
+- En grau D, la FE pot començar **a l'inici del segon trimestre del primer curs**, i l'alumnat de primer curs fa **almenys 100 hores** en l'empresa.
+- El **pla de formació en empresa** s'elabora en el primer trimestre, abans de la primera avaluació.
+- Es poden dualitzar tots els mòduls **excepte el projecte intermodular**, però cap completament: almenys el **35 %** de cada mòdul s'imparteix en el centre.
+- La qualificació final de cada mòdul la posa el seu professorat, tenint en compte la valoració del tutor o tutora d'empresa. Els RA no superats en l'empresa es recuperen en el centre.
 
 > [!IMPORTANT]
 > Per a començar la FE, l'alumnat ha d'haver adquirit abans les competències de **prevenció de riscos laborals** del perfil, que se situen obligatòriament en el primer trimestre del primer curs.
@@ -76,9 +83,12 @@ A més dels mòduls tècnics de cada títol, tots els cicles inclouen:
 | Norma | Què regula |
 |---|---|
 | **Decret 114/2025, de 29 de juliol** | Currículums dels cicles de grau mitjà i superior en aplicació de la LO 3/2022. Projecte curricular de cicle (art. 8) i **programació didàctica de mòdul** (art. 9) |
-| Resolució d'inici de curs | Instruccions anuals d'organització dels centres que imparteixen FP |
-| Ordre 79/2010 | Avaluació de l'alumnat d'FP ([tema 5](/t05-evaluacion)) |
+| **Resolució de 16 de juliol de 2026** | Instruccions d'inici de curs 2026/27 per als graus D i E: programació, FE, avaluació |
+| **Ordre 8/2025**, modificada per l'Ordre 5/2026 | Avaluació en els cicles formatius i cursos d'especialització ([tema 5](/t05-evaluacion)) |
+| Decret 252/2019 | Reglament orgànic i funcional dels instituts |
 | Decret 104/2018 i Ordre 20/2019 | Inclusió educativa ([tema 6](/t06-inclusion)) |
+
+La relació completa, revisada el novembre de 2026, és en [Legislació vigent](/recursos/legislacion).
 
 > [!WARNING]
 > La normativa d'FP ha canviat molt des de 2022 i continua canviant. Abans de citar una norma en la teua PD, comprova en el BOE o el DOGV que continua vigent i consulta'n la **versió consolidada**. La convocatòria exigeix programar amb la normativa vigent en el curs de referència.
@@ -112,7 +122,7 @@ La LOE (article 120 i següents) reconeix l'**autonomia pedagògica, d'organitza
 - q: "En el règim general d'FP dual, la formació en empresa dura…"
   options: ["Menys del 25 % del cicle", "Entre el 25 % i el 35 % del cicle", "Més del 50 % del cicle"]
   answer: 1
-  explain: "El règim general va del 25 % al 35 % de la durada total; l'intensiu, a partir del 35 %."
+  explain: "El règim general va del 25 % al 35 % de la durada total; l'intensiu, de més del 35 % fins al 50 %."
 - q: "En quin grau del sistema d'FP hi ha els cursos d'especialització?"
   options: ["Grau C", "Grau D", "Grau E"]
   answer: 2
@@ -130,7 +140,7 @@ La LOE (article 120 i següents) reconeix l'**autonomia pedagògica, d'organitza
 
 - {{< doc `t01-sistema-educativo/loe-2006.pdf` `LOE 2006` >}} — Llei Orgànica d'Educació 2/2006, de 3 de maig de 2006
 - [LOE](https://www.boe.es/buscar/pdf/2006/BOE-A-2006-7899-consolidado.pdf)
-- {{< doc `t01-sistema-educativo/lomce-boe-2013.pdf` `LOMCE 8/2013` >}} — Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.
+- {{< doc `t01-sistema-educativo/lomce-boe-2013.pdf` `LOMQE 8/2013 (històrica: els seus canvis els va substituir la LOMLOE)` >}} — Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.
 - {{< doc `t01-sistema-educativo/la-fp-en-la-lomce.pdf` `La FP en la LOMCE` >}}
 - [Los efectos de la LOMCE en la FP](https://raulsolbes.com/2016/04/13/los-efectos-de-la-lomce-en-la-fp/)
 - {{< doc `t01-sistema-educativo/sistema-eductivo-lomce.pdf` `Sistema Educatiu` >}} — Esquema del sistema educatiu espanyol segons la Llei Orgànica de Millora de la Qualitat Educativa (LOMQE)
@@ -142,7 +152,7 @@ La LOE (article 120 i següents) reconeix l'**autonomia pedagògica, d'organitza
 - [Dossier LFP](https://www.todofp.es/dam/jcr:99d1f05d-2db7-4898-89f8-faec6f3e76af/dossier-informativo-nueva-ley-fp-2022.pdf)
 - {{< doc `t01-sistema-educativo/real-decreto-nueva-ley-fp.pdf` `Nueva ley FP 2024` >}}
 - {{< doc `t01-sistema-educativo/sintesis-ley-organica-caixabank.pdf` `IMPORTANTE. Esquema de la nueva ley de FP. La FP DUAL. Comparativa` >}}
-- {{< doc `t01-sistema-educativo/boe-a-2023-16889.pdf` `Orden 78/2010_ordenación_organización_FP` >}} — Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional. de la ordenación y organización académica de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana. [2010/9539]
+- {{< doc `t01-sistema-educativo/boe-a-2023-16889.pdf` `Reial decret 659/2023, d'ordenació del Sistema d'FP` >}} — Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional. de la ordenación y organización académica de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana. [2010/9539]
 - {{< doc `t01-sistema-educativo/2025-29742-es.pdf` `DECRETO 114/2025, de 29 de julio,` >}}
 - [Orden de Inicio de curso](https://ceice.gva.es/documents/388109149/394550702/Instrucciones+2025-26+DOGV+cas_firmado.pdf/943f8061-3f8d-6a4c-21fe-d0a0b5478c75?t=1752748668357)
 

@@ -111,6 +111,12 @@ GRUPOS = {
 NOMBRES = {  # títulos más claros que los de Moodle (es, val)
     72430: ('Resumen de la programación didáctica (presentación)', 'Resum de la programació didàctica (presentació)'),
     72431: ('Orientaciones, verbos y ejemplos de UT', "Orientacions, verbs i exemples d'UT"),
+    72314: ('Real Decreto 659/2023, de ordenación del Sistema de FP', "Reial decret 659/2023, d'ordenació del Sistema d'FP"),
+    72354: ('Orden 79/2010 de evaluación (solo ciclos LOGSE; los actuales: Orden 8/2025)', "Ordre 79/2010 d'avaluació (només cicles LOGSE; els actuals: Ordre 8/2025)"),
+    72353: ('Orden 38/2017 de evaluación de ESO y Bachillerato (anterior a la LOMLOE; ver Orden 19/2023)', "Ordre 38/2017 d'avaluació d'ESO i Batxillerat (anterior a la LOMLOE; vegeu Ordre 19/2023)"),
+    72315: ('Orden 46/2012 (solo títulos LOE anteriores)', 'Ordre 46/2012 (només títols LOE anteriors)'),
+    72313: ('Orden 77/2010 de FCT (histórica; ahora formación en empresa)', "Ordre 77/2010 d'FCT (històrica; ara formació en empresa)"),
+    72264: ('LOMCE 8/2013 (histórica: sus cambios los sustituyó la LOMLOE)', 'LOMQE 8/2013 (històrica: els seus canvis els va substituir la LOMLOE)'),
 }
 CABECERA = ('Material de la asignatura', "Material de l'assignatura")
 NOTA_GRANDE = ('(archivo muy grande: consúltalo en la web oficial)', "(fitxer molt gran: consulta'l en la web oficial)")

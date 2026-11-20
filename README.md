@@ -13,6 +13,7 @@ Publicada en GitHub Pages: <https://lorenalresusta.github.io/AEI/>.
 | `static/recursos/<tema>/` | Documentos de la asignatura (procedentes de la copia de Moodle) |
 | `data/rubrica.yaml` | Rúbrica de la segunda prueba (criterios de la comisión 254, 2025). Alimenta la página *Rúbricas* |
 | `layouts/_shortcodes/` | `calendario`, `sesiones`, `rubrica`, `doc`, `quiz`, `tarjetas`, `curiosidad` |
+| `tools/ilustraciones.py` | Genera las ilustraciones SVG (castellano y valenciano) en `assets/images/` |
 | `tools/rubrica_xlsx.py` | Genera la hoja de cálculo de la rúbrica a partir de `data/rubrica.yaml` |
 | `tools/material.py` | Regenera los listados «Material de la asignatura» a partir de una copia `.mbz` descomprimida |
 

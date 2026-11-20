@@ -7,7 +7,51 @@ weight: 30
 
 La **programación didáctica (PD)** es el documento en el que planificas un curso completo de un módulo o una materia: qué vas a enseñar, en qué orden, cómo y cómo vas a evaluarlo, adaptado a un centro y a un grupo concretos. En la oposición es, además, **el documento que defiendes ante el tribunal**.
 
-## 3.1. Los niveles de concreción curricular
+## 3.1. Las bases de la programación didáctica
+
+Antes de escribir una sola línea conviene tener claro **qué es una programación y qué la sostiene**.
+
+![Una casa: cimientos de normativa, suelo de contexto, cinco pilares y tejado de programación](es/pd-bases.svg "La programación se sostiene sobre la normativa y el contexto")
+
+### Qué es
+
+La programación didáctica es **la planificación de todo un curso** de un módulo o una materia, elaborada por el departamento y concretada por cada docente, que **traduce el currículo oficial a un aula concreta**: un centro, un entorno, un grupo y un calendario. Es a la vez:
+
+- un **documento de planificación**, que anticipa qué va a pasar en el aula y evita la improvisación;
+- un **instrumento de coordinación**, porque garantiza que todo el profesorado del módulo trabaja los mismos resultados de aprendizaje;
+- un **compromiso con el alumnado y las familias**, que tienen derecho a conocer qué se evalúa y cómo;
+- un **documento vivo**, que se revisa con la evaluación de la práctica docente.
+
+### Sus cimientos
+
+| Base | Qué aporta a la programación |
+|---|---|
+| **Normativa** | Qué es obligatorio: resultados de aprendizaje, criterios, contenidos mínimos, horas, evaluación e inclusión |
+| **Contexto** | Para quién: características del centro, del entorno productivo y del alumnado |
+| **Fuente psicológica** | Cómo aprende el alumnado: aprendizaje significativo, motivación, zona de desarrollo próximo |
+| **Fuente pedagógica** | Cómo enseñar mejor: metodologías activas, evaluación formativa, experiencia docente |
+| **Fuente epistemológica** | Qué saber de la disciplina es relevante: la informática y su evolución |
+| **Fuente sociológica y profesional** | Qué demanda la sociedad y el sector: perfil profesional, empleabilidad, competencias digitales |
+
+### Las preguntas que responde
+
+![Cinco preguntas alrededor de la programación](es/pd-preguntas.svg "Las cinco preguntas de la programación didáctica")
+
+### Características de una buena programación
+
+| Característica | Significa que… |
+|---|---|
+| **Adecuada** | Se ajusta al nivel, al alumnado y al entorno del centro |
+| **Concreta** | Dice qué se hace, cuándo y cómo, sin generalidades |
+| **Flexible** | Permite ajustes cuando el grupo lo necesita |
+| **Viable** | Se puede cumplir con el tiempo, los espacios y los recursos reales |
+| **Coherente** | Objetivos, contenidos, actividades y evaluación están alineados |
+| **Inclusiva** | Prevé respuestas para todo el alumnado desde el diseño |
+
+> [!TIP]
+> Una frase para la defensa: *«La programación es el puente entre el currículo oficial y el aula: concreta lo prescriptivo y lo adapta a un contexto real»*.
+
+## 3.2. Los niveles de concreción curricular
 
 La PD no se inventa: concreta lo que ya fijan las normas de rango superior.
 
@@ -29,7 +73,7 @@ flowchart TB
 
 Tu PD debe ser coherente con los documentos del centro en el que la sitúas. Los más importantes son el **proyecto educativo (PEC)**, la **programación general anual (PGA)**, el **plan de acción tutorial**, el **plan de igualdad y convivencia**, el **plan de transición** y el **plan de fomento de la lectura**. En el material tienes los de un instituto real como modelo.
 
-## 3.2. Qué debe contener: el Decreto 114/2025
+## 3.3. Qué debe contener: el Decreto 114/2025
 
 El **artículo 9 del Decreto 114/2025** establece que la programación didáctica de un módulo profesional la elabora el departamento, teniendo en cuenta el proyecto curricular, e incluye:
 
@@ -45,7 +89,9 @@ El **artículo 9 del Decreto 114/2025** establece que la programación didáctic
 10. Actividades complementarias y extraescolares.
 11. Criterios y procedimientos para evaluar el desarrollo de la programación y la práctica docente, y criterios de calificación.
 
-## 3.3. Qué pide la convocatoria de oposiciones
+Las **instrucciones de inicio de curso 2026/27** (Resolución de 16 de julio de 2026, apartado 7) repiten esta lista, permiten añadir **cualquier otro apartado** que el equipo considere relevante y recuerdan que la programación se ajusta a las directrices de la comisión de coordinación pedagógica y al **proyecto curricular**, que es vinculante y no hace falta repetir. También recomiendan incluir **cómo se organizan los RA que se trabajan en la empresa**.
+
+## 3.4. Qué pide la convocatoria de oposiciones
 
 La convocatoria de 2025 (Orden 1/2025) exige, para las especialidades de FP, que la PD **especifique e interrelacione**:
 
@@ -62,7 +108,7 @@ Además, debe tener **al menos seis unidades de programación desarrolladas**; s
 > [!NOTE]
 > En **ESO y Bachillerato** se presenta una **programación de aula** de un curso, con enfoque competencial y **al menos seis situaciones de aprendizaje desarrolladas** (artículo 22 del Decreto 107/2022 y artículo 23 del Decreto 108/2022).
 
-## 3.4. Una estructura que funciona
+## 3.5. Una estructura que funciona
 
 Esta es una distribución orientativa de las 60 páginas, que puedes adaptar a la convocatoria del año:
 
@@ -80,7 +126,7 @@ Esta es una distribución orientativa de las 60 páginas, que puedes adaptar a l
 
 Puedes añadir actividades complementarias y extraescolares y anexos (como máximo 15 páginas: rúbricas, modelos de evaluación, plantillas).
 
-## 3.5. Temporalización y secuenciación
+## 3.6. Temporalización y secuenciación
 
 Una buena PD demuestra que el tiempo **cuadra**:
 
@@ -92,11 +138,11 @@ Una buena PD demuestra que el tiempo **cuadra**:
 > [!TIP]
 > Incluye una **tabla de doble entrada** que relacione cada unidad de programación con los RA y criterios que trabaja. Es la forma más rápida de demostrar al tribunal que cubres todo el currículo.
 
-## 3.6. Cómo redactar los objetivos
+## 3.7. Cómo redactar los objetivos
 
 Los objetivos y los criterios se redactan con **un verbo en infinitivo** que exprese una acción observable y evaluable: *identificar, describir, configurar, instalar, desarrollar, documentar, verificar…* Evita verbos como *saber*, *entender* o *conocer*, que no se pueden observar. En el material tienes una relación de verbos según el tipo de contenido.
 
-## 3.7. Actividad del taller
+## 3.8. Actividad del taller
 
 Durante los talleres de noviembre vas a redactar tu PD por partes:
 

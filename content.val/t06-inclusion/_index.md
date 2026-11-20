@@ -14,8 +14,13 @@ La convocatòria i els criteris dels tribunals insisteixen en la **inclusió**: 
 | **LOE, art. 71 i següents** (modificada per la LOMLOE) | Alumnat amb necessitat específica de suport educatiu (NESE). L'art. 39 afig que l'FP atendrà especialment aquest alumnat mantenint la inclusió com a principi |
 | **Decret 104/2018**, de 27 de juliol | Principis d'equitat i inclusió en el sistema educatiu valencià |
 | **Ordre 20/2019**, de 30 d'abril | Organització de la resposta educativa per a la inclusió de l'alumnat. El seu **article 14** tracta l'adequació personalitzada de les programacions didàctiques |
+| Decret 72/2021 i Ordre 10/2023 | Orientació educativa i professional |
+| Resolució de 23 de desembre de 2021 | Detecció i identificació de necessitats específiques de suport educatiu |
+| Resolució de 24 de juliol de 2019 | Atenció a l'alumnat hospitalitzat o convalescent |
 
 ## 6.2. Qui és alumnat amb NESE?
+
+![Mapa de les categories de NESE amb les NEE al centre](val/neae-mapa.svg "Les NEE són una part de les NESE")
 
 Segons la LOE, requereix una atenció educativa diferent de l'ordinària l'alumnat amb:
 
@@ -35,6 +40,8 @@ Segons la LOE, requereix una atenció educativa diferent de l'ordinària l'alumn
 ## 6.3. Els nivells de resposta a la Comunitat Valenciana
 
 L'Ordre 20/2019 organitza les mesures en **quatre nivells**, del general a l'individual:
+
+![Piràmide dels quatre nivells de resposta](val/inclusion-niveles.svg "De tot el centre a cada alumne o alumna")
 
 | Nivell | Destinataris | Exemples |
 |---|---|---|

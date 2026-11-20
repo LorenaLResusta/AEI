@@ -37,12 +37,14 @@ El detalle sesión a sesión está en la [guía de la asignatura](/guia).
 
 ## Contenidos del bloque
 
+![Ruta de los nueve temas del bloque hasta la oposición](es/ruta.svg "Los nueve temas del bloque, en el orden en que se trabajan")
+
 | Tema | Qué vas a aprender |
 |---|---|
 | [1. Sistema educativo y marco legal](/t01-sistema-educativo) | De la LOE a la LOMLOE y la nueva Ley de FP (LO 3/2022). Grados de FP, formación en empresa y FP dual |
 | [2. Las enseñanzas de informática](/t02-ensenanzas-informatica) | Títulos SMR, ASIR, DAM y DAW, currículos de la Comunitat Valenciana y materias de ESO y Bachillerato |
-| [3. La programación didáctica](/t03-programacion-didactica) | Niveles de concreción, apartados obligatorios (Decreto 114/2025 y convocatoria), formato y ejemplos |
-| [4. Metodología y situaciones de aprendizaje](/t04-metodologia) | Metodologías activas, aprendizaje basado en retos, situaciones de aprendizaje, secuenciación |
+| [3. La programación didáctica](/t03-programacion-didactica) | Las bases de la PD, niveles de concreción, apartados obligatorios (Decreto 114/2025 y convocatoria), formato y ejemplos |
+| [4. Metodología y situaciones de aprendizaje](/t04-metodologia) | Metodologías activas, eduScrum, retos, situaciones de aprendizaje, actividades complementarias y extraescolares |
 | [5. Evaluación](/t05-evaluacion) | Normativa, resultados de aprendizaje y criterios, instrumentos, rúbricas y calificación |
 | [6. Atención a la diversidad e inclusión](/t06-inclusion) | Decreto 104/2018, Orden 20/2019, niveles de respuesta, alumnado con NEAE |
 | [7. La unidad de programación](/t07-unidad-programacion) | Elementos de una UT/UP, redacción, actividades, conexión con la PD |

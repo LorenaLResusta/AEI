@@ -55,14 +55,18 @@ La Conselleria publica un currículo para cada ciclo (en la carpeta de material 
 - la distribución de los módulos entre **primer y segundo curso**;
 - los módulos nuevos (Itinerario para la empleabilidad, Digitalización, Sostenibilidad, Inglés profesional, Proyecto intermodular y optativa).
 
+> [!NOTE]
+> Las órdenes valencianas de ordenación de la FP de 2010 y 2012 (Orden 78/2010, Orden 46/2012) **solo se aplican a los últimos cursos de títulos LOE**. Para los ciclos actuales manda el Decreto 114/2025 y las instrucciones de inicio de curso. Ver [Legislación vigente](/recursos/legislacion).
+
 ## 2.4. ESO y Bachillerato
 
 En ESO y Bachillerato la referencia es el **currículo LOMLOE**: competencias clave, competencias específicas, criterios de evaluación y saberes básicos, que se trabajan mediante **situaciones de aprendizaje**.
 
 | Etapa | Norma estatal | Norma de la Comunitat Valenciana |
 |---|---|---|
-| ESO | RD 217/2022, de 29 de marzo | Decreto 107/2022, de 5 de agosto |
+| ESO | RD 217/2022, de 29 de marzo | Decreto 107/2022, de 5 de agosto, modificado por el Decreto 66/2024 |
 | Bachillerato | RD 243/2022, de 5 de abril | Decreto 108/2022, de 5 de agosto |
+| Evaluación y procedimientos | RD 984/2021, de 16 de noviembre | Orden 19/2023, de 29 de junio |
 
 Las materias más habituales para la especialidad son las de **Digitalización** y las de **Tecnología e Ingeniería** compartidas con otras especialidades, además de las optativas propias de la Comunitat Valenciana. Revisa el anexo del decreto para comprobar la atribución docente de cada materia.
 
@@ -111,8 +115,8 @@ Elige un ciclo de la familia y compara el **currículo del Ministerio** (aplicab
 ### Ordenación de la FP
 
 - {{< doc `t02-ensenanzas-informatica/boe-1147-2011-ogfp.pdf` `Reial Decreto 1147/2011 del desenvolupament de la FP` >}} — Reial Decret 1147/2011, de 29 de juliol, per el que s'estableix l'ordenació general de la formació professional del sistema educatiu.
-- {{< doc `t02-ensenanzas-informatica/orden46-2012-regulan-aspectos-fp-en-la-cv.pdf` `Orden 46/2012 Regulación aspecto FP en comunidad Valenciana` >}} — ORDEN 46/2012, de 12 de julio, de la Conselleria de Educación, Formación y Empleo, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional del sistema educativo en la Comunitat Valenciana.
-- {{< doc `t02-ensenanzas-informatica/orden77-regula-modulo-fct-cv.pdf` `Orden 77/2010_Regula módulo de FCT` >}}
+- {{< doc `t02-ensenanzas-informatica/orden46-2012-regulan-aspectos-fp-en-la-cv.pdf` `Orden 46/2012 (solo títulos LOE anteriores)` >}} — ORDEN 46/2012, de 12 de julio, de la Conselleria de Educación, Formación y Empleo, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional del sistema educativo en la Comunitat Valenciana.
+- {{< doc `t02-ensenanzas-informatica/orden77-regula-modulo-fct-cv.pdf` `Orden 77/2010 de FCT (histórica; ahora formación en empresa)` >}}
 - {{< doc `t02-ensenanzas-informatica/cit2-ingles-tecnico.pdf` `CIT2_Ingles Técnico` >}} — Consideraciones a tener en cuenta en torno a la calificación del módulo profesional "Inglés técnico/Horario reservado para la docencia en inglés"
 
 ### ESO y Bachillerato

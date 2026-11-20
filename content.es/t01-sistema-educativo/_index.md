@@ -53,9 +53,16 @@ Toda la FP tiene ahora **carácter dual**: una parte de la formación se hace en
 | Régimen | Duración de la FE | Resultados de aprendizaje en la empresa |
 |---|---|---|
 | **General** | Entre el 25 % y el 35 % de la duración total del ciclo | Al menos el 10 % de los RA |
-| **Intensivo** | Como mínimo el 35 % | Al menos el 30 % de los RA (con autorización) |
+| **Intensivo** | Más del 35 % y hasta el 50 % | Al menos el 30 % de los RA (con autorización) |
 
 La FE **no tiene currículo propio**: contribuye a alcanzar parte de los resultados de aprendizaje de los módulos. Por eso tu programación debe indicar **qué RA se trabajan en la empresa**.
+
+Las **instrucciones de inicio de curso 2026/27** (Resolución de 16 de julio de 2026) concretan cómo se organiza:
+
+- En grado D, la FE puede empezar **al inicio del segundo trimestre del primer curso**, y el alumnado de primer curso hace **al menos 100 horas** en la empresa.
+- El **plan de formación en empresa** se elabora en el primer trimestre, antes de la primera evaluación.
+- Se pueden dualizar todos los módulos **excepto el proyecto intermodular**, pero ninguno por completo: al menos el **35 %** de cada módulo se imparte en el centro.
+- La calificación final de cada módulo la pone su profesorado, teniendo en cuenta la valoración del tutor o tutora de empresa. Los RA no superados en la empresa se recuperan en el centro.
 
 > [!IMPORTANT]
 > Para empezar la FE, el alumnado debe haber adquirido antes las competencias de **prevención de riesgos laborales** del perfil, que se sitúan obligatoriamente en el primer trimestre del primer curso.
@@ -76,9 +83,12 @@ Además de los módulos técnicos de cada título, todos los ciclos incluyen:
 | Norma | Qué regula |
 |---|---|
 | **Decreto 114/2025, de 29 de julio** | Currículos de los ciclos de grado medio y superior en aplicación de la LO 3/2022. Proyecto curricular de ciclo (art. 8) y **programación didáctica de módulo** (art. 9) |
-| Resolución de inicio de curso | Instrucciones anuales de organización de los centros que imparten FP |
-| Orden 79/2010 | Evaluación del alumnado de FP ([tema 5](/t05-evaluacion)) |
+| **Resolución de 16 de julio de 2026** | Instrucciones de inicio de curso 2026/27 para los grados D y E: programación, FE, evaluación |
+| **Orden 8/2025**, modificada por la Orden 5/2026 | Evaluación en los ciclos formativos y cursos de especialización ([tema 5](/t05-evaluacion)) |
+| Decreto 252/2019 | Reglamento orgánico y funcional de los institutos |
 | Decreto 104/2018 y Orden 20/2019 | Inclusión educativa ([tema 6](/t06-inclusion)) |
+
+La relación completa, revisada en noviembre de 2026, está en [Legislación vigente](/recursos/legislacion).
 
 > [!WARNING]
 > La normativa de FP ha cambiado mucho desde 2022 y sigue cambiando. Antes de citar una norma en tu PD, comprueba en el BOE o el DOGV que sigue vigente y consulta su **versión consolidada**. La convocatoria exige programar con la normativa vigente en el curso de referencia.
@@ -112,7 +122,7 @@ La LOE (artículo 120 y siguientes) reconoce la **autonomía pedagógica, de org
 - q: "En el régimen general de FP dual, la formación en empresa dura…"
   options: ["Menos del 25 % del ciclo", "Entre el 25 % y el 35 % del ciclo", "Más del 50 % del ciclo"]
   answer: 1
-  explain: "El régimen general va del 25 % al 35 % de la duración total; el intensivo, a partir del 35 %."
+  explain: "El régimen general va del 25 % al 35 % de la duración total; el intensivo, de más del 35 % hasta el 50 %."
 - q: "¿En qué grado del sistema de FP están los cursos de especialización?"
   options: ["Grado C", "Grado D", "Grado E"]
   answer: 2
@@ -130,7 +140,7 @@ La LOE (artículo 120 y siguientes) reconoce la **autonomía pedagógica, de org
 
 - {{< doc `t01-sistema-educativo/loe-2006.pdf` `LOE 2006` >}} — Llei Orgànica d'Educació 2/2006, de 3 de maig de 2006
 - [LOE](https://www.boe.es/buscar/pdf/2006/BOE-A-2006-7899-consolidado.pdf)
-- {{< doc `t01-sistema-educativo/lomce-boe-2013.pdf` `LOMCE 8/2013` >}} — Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.
+- {{< doc `t01-sistema-educativo/lomce-boe-2013.pdf` `LOMCE 8/2013 (histórica: sus cambios los sustituyó la LOMLOE)` >}} — Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.
 - {{< doc `t01-sistema-educativo/la-fp-en-la-lomce.pdf` `La FP en la LOMCE` >}}
 - [Los efectos de la LOMCE en la FP](https://raulsolbes.com/2016/04/13/los-efectos-de-la-lomce-en-la-fp/)
 - {{< doc `t01-sistema-educativo/sistema-eductivo-lomce.pdf` `Sistema Educatiu` >}} — Esquema del sistema educatiu espanyol segons la Llei Orgànica de Millora de la Qualitat Educativa (LOMQE)
@@ -142,7 +152,7 @@ La LOE (artículo 120 y siguientes) reconoce la **autonomía pedagógica, de org
 - [Dossier LFP](https://www.todofp.es/dam/jcr:99d1f05d-2db7-4898-89f8-faec6f3e76af/dossier-informativo-nueva-ley-fp-2022.pdf)
 - {{< doc `t01-sistema-educativo/real-decreto-nueva-ley-fp.pdf` `Nueva ley FP 2024` >}}
 - {{< doc `t01-sistema-educativo/sintesis-ley-organica-caixabank.pdf` `IMPORTANTE. Esquema de la nueva ley de FP. La FP DUAL. Comparativa` >}}
-- {{< doc `t01-sistema-educativo/boe-a-2023-16889.pdf` `Orden 78/2010_ordenación_organización_FP` >}} — Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional. de la ordenación y organización académica de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana. [2010/9539]
+- {{< doc `t01-sistema-educativo/boe-a-2023-16889.pdf` `Real Decreto 659/2023, de ordenación del Sistema de FP` >}} — Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional. de la ordenación y organización académica de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana. [2010/9539]
 - {{< doc `t01-sistema-educativo/2025-29742-es.pdf` `DECRETO 114/2025, de 29 de julio,` >}}
 - [Orden de Inicio de curso](https://ceice.gva.es/documents/388109149/394550702/Instrucciones+2025-26+DOGV+cas_firmado.pdf/943f8061-3f8d-6a4c-21fe-d0a0b5478c75?t=1752748668357)
 
